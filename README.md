@@ -1,39 +1,143 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Victoria Park Community**
 
-Welcome,
+Welcome to Victoria Park Community website.  This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.  
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+[View the live project here]( https://github.com/lisaloudness/project1_community_page.git) 
 
-## Codeanywhere Reminders
+ 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## **Introduction**
 
-`python3 -m http.server`
+Main aim of this website is to provide a comprehensive landing site to bring together all the various social media pages in one place so that no user is excluded from information if they are not signed up to a number of different websites. Included will be general information about the park such as amenities,  opening times, location and also timestamped events which will require a calendar.  
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## **UX**
 
-`http_server`
+Current users will be residents who live in the vicinity of the park. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Current users will be business owners operating in the park. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+New users will be visitors to the park. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+New users will be potential business users to the park. 
 
-To log into the Heroku toolbelt CLI:
+ 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## **Website Design**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The website will consist of three pages: 
 
----
+### **Home Page**
 
-Happy coding!
+#### *Key Features*
+
+Landing page will have a Hero image below the website Title and Nav bar. 
+
+Opening times. 
+
+Social media links. 
+
+Brief summary about the park 
+
+### **Facilities Page**
+
+#### *Key Features*
+
+Mamas Place 
+
+Cardiff Beach Centre 
+
+Bloc 
+
+Cylch Meithrin Y Parc 
+
+ 
+
+### *Contact us*
+
+#### *Key Features*
+
+Web form to include contact details, reason for enquiry 
+
+ 
+
+ 
+
+## Typography
+
+ 
+
+ 
+
+## Color scheme
+
+ 
+
+ 
+
+## Features 
+
+### Nav Bar 
+
+### Hero Image
+
+### Footer 
+
+ 
+
+ 
+
+## Technologies used. 
+
+ 
+
+### Languages Used 
+
+  * HTML5 
+
+  * CSS3 
+
+ 
+
+### **Frameworks, Libraries & Programs Used** 
+
+  * Bootstrap v4.3 
+
+  * Google Fonts: was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project. 
+
+  * Font Awesome: was used to add icons for aesthetic and UX purposes. 
+
+  * Git: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub. 
+
+  * GitHub: is used as the respository for the projects code after being pushed from Git. 
+
+  * Microsoft Paint 3D: was used for resizing images and editing photos for the website. 
+
+  * Balsamiq: was used to create the wireframes during the design process. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+# Wireframes 
+
+ 
+
+#### *Home Page 
+
+![alt text](Documentation/Wireframes/home_wireframe.png) 
+
+#### *Facilities page. 
+
+![alt text](Documentation/Wireframes/facilities_wireframe.png) 
+
+#### *Contact us page. 
+
+![alt text](Documentation/Wireframes/contact_wireframe.png) 
