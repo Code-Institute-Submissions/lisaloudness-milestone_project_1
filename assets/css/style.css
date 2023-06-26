@@ -1,3 +1,11 @@
+h1 {
+    background-color: #04AA6D;
+}
+
+body {
+    background-color: greenyellow;
+}
+
 /* Add a black background color to the top navigation */
 nav {
     background-color: #333;
@@ -24,4 +32,9 @@ nav a:hover {
 nav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.sans {
+    font-family: cursive;
+    font-size: 24px;
 }
