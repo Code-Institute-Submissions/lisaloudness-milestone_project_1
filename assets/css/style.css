@@ -31,6 +31,7 @@ nav a.active {
     color: white;
     text-decoration: underline;
 }
+
 /* -------- SECTION 2 -------*/
 .clearfix {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
@@ -39,11 +40,12 @@ nav a.active {
 /*--------SECTION 3 --NOTHING WORKS IN THIS SECTION------*/
 .container text-center {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
-}    
+}
 
 .map text {
     text-align: left;
 }
+
 /*--------SECTION 4 --------*/
 .social {
     text-align: center;
@@ -55,11 +57,14 @@ body {
     height: 100%;
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
 }
+
 /*--------SECTION 1---------*/
 #hero image {
-    height: 600px;
+    height: 50%;
     width: 100%;
-    background-image: url(splash_1.jpg)
+    background-image: url(assets/images/children_splash.jpg);
+    background-repeat: no-repeat;
 }
+
 /*--------SECTION 2---------*/
 /*--------SECTION 3---------*/
