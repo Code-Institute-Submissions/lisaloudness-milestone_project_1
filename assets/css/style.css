@@ -1,14 +1,11 @@
+/* Section 1*/
 h1 {
-    background-color: #04AA6D;
+    background-color: #33ccff;
+    text-align: center;
 }
 
-body {
-    background-color: greenyellow;
-}
-
-/* Add a black background color to the top navigation */
 nav {
-    background-color: #333;
+    background-color: #7df379;
     overflow: hidden;
 }
 
@@ -17,7 +14,7 @@ nav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 19px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -32,9 +29,17 @@ nav a:hover {
 nav a.active {
     background-color: #04AA6D;
     color: white;
+    text-decoration: underline;
+}
+/* -------- SECTION 2 -------*/
+.clearfix {
+    background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
 }
 
-.sans {
-    font-family: cursive;
-    font-size: 24px;
+/*--------SECTION 3 --------*/
+
+/*--------SECTION 4 --------*/
+.social {
+    text-align: center;
+    background-color: lightgrey;
 }
