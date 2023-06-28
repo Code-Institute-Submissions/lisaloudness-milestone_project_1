@@ -56,17 +56,20 @@ nav a.active {
 body {
     height: 100%;
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
+    text-align: center;
 }
 
 /*--------SECTION 1---------*/
-#hero image {
-    height: 50%;
-    width: 100%;
-    background-image: url(assets/images/children_splash.jpg);
-    background-repeat: no-repeat;
-}
+
 
 /*--------SECTION 2---------*/
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/images/splash_summer2.jpg);
+    float: center;
+}
+
 /*--------SECTION 3---------*/
 
 /*-------CONTACT PAGE-------*/
