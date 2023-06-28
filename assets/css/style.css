@@ -14,7 +14,7 @@ nav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 19px;
+    padding: 10px 40px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -35,6 +35,9 @@ nav a.active {
 /* -------- SECTION 2 -------*/
 .clearfix {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
+    padding: 10%;
+    padding-top: 2%;
+    font-size: 16px;
 }
 
 /*--------SECTION 3 --NOTHING WORKS IN THIS SECTION------*/
