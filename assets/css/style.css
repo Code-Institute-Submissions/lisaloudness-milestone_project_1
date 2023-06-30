@@ -2,11 +2,13 @@
 h1 {
     background-color: #33ccff;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
     background-color: #7df379;
     overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -17,6 +19,7 @@ nav a {
     padding: 10px 40px;
     text-decoration: none;
     font-size: 17px;
+    text-indent: 50px;
 }
 
 /* Change the color of links on hover */
@@ -37,21 +40,38 @@ nav a.active {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
     padding: 10%;
     padding-top: 2%;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image-padding {
+    padding: 20px;
+}
+
+.time {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 160px 50px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 20px;
 }
 
 .fountain {
-    padding: 150px 100px 100px 100px;
+    position: relative;
+    padding: 70px 20px 70px 70px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.map-text {
     text-align: center;
 }
 
-/*--------SECTION 3 --NOTHING WORKS IN THIS SECTION------*/
-.container text-center {
-    background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
-}
-
-.map text {
-    text-align: left;
+.map {
+    float: right;
 }
 
 /*--------SECTION 4 --------*/
@@ -76,13 +96,18 @@ body {
     width: 100%;
     background-image: url(assets/images/splash_summer2.jpg);
     float: center;
-}
+} 
 
 /*--------SECTION 3---------*/
 
 /*-------CONTACT PAGE-------*/
+.form-page {
+background-image: url("vic_park.jpg");
+}
+
 .google maps {
     width: 45%;
     padding: 1rem 2.5% 0;
     border: 20px solid #4b4d4b;
     float: left;
+}
