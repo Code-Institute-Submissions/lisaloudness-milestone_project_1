@@ -14,12 +14,12 @@ nav {
 /* Style the links inside the navigation bar */
 nav a {
     float: left;
-    color: #f2f2f2;
+    color: #5819ec;
     text-align: center;
     padding: 10px 40px;
     text-decoration: none;
     font-size: 17px;
-    text-indent: 50px;
+    text-indent: 20px;
 }
 
 /* Change the color of links on hover */
@@ -55,13 +55,12 @@ nav a.active {
     text-align: center;
     padding-top: 160px 50px;
     font-weight: bold;
-    border: 2px solid blue;
-    border-radius: 20px;
+    bord
 }
 
 .fountain {
     position: relative;
-    padding: 70px 20px 70px 70px;
+    padding: 70px 50px 50px 70px;
     text-align: left;
     font-size: 18px;
 }
@@ -72,6 +71,7 @@ nav a.active {
 
 .map {
     float: right;
+    padding-right: 200px;
 }
 
 /*--------SECTION 4 --------*/
@@ -81,7 +81,8 @@ nav a.active {
 }
 
 /*--------FACILITIES--------*/
-body {
+body,
+html {
     height: 100%;
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
     text-align: center;
@@ -91,18 +92,33 @@ body {
 
 
 /*--------SECTION 2---------*/
-.hero {
-    height: 100%;
+.splash {
+    height: 50%;
     width: 100%;
-    background-image: url(assets/images/splash_summer2.jpg);
-    float: center;
-} 
+    background-image: url(/assets/images/splash_summer2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.splash-text {
+    text-align: left;
+}
+
+
 
 /*--------SECTION 3---------*/
 
 /*-------CONTACT PAGE-------*/
 .form-page {
-background-image: url("vic_park.jpg");
+    background-image: url(/assets/images/vic_park.jpg);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 .google maps {
