@@ -92,11 +92,11 @@ Web form to include contact details, reason for enquiry
 
 #### \*Home Page
 
-![alt text](Documentation/Wireframes/home_wireframe.png)
+![alt text](/assets/images/home_page.png)
 
 #### \*Facilities page.
 
-![alt text](Documentation/Wireframes/facilities_wireframe.png)
+![alt text](/assets/images/facilities_page.png)
 
 #### \*Contact us page.
 

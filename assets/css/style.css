@@ -104,8 +104,17 @@ html {
 .splash-text {
     text-align: left;
     padding: 0px 80px;
+    list-style-type: square;
 }
 
+.facilities-text {
+    text-align: left;
+}
+
+.list-space {
+
+    padding: 10px 10px;
+}
 
 
 /*--------SECTION 3---------*/
