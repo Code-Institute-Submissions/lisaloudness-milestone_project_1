@@ -1,13 +1,19 @@
 /* Section 1*/
+header {
+    background-attachment: fixed;
+}
+
 h1 {
     background-color: #33ccff;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
 }
 
 nav {
     background-color: #7df379;
     overflow: hidden;
+    nav-down: auto;
 
 }
 
@@ -36,26 +42,45 @@ nav a.active {
 }
 
 /* -------- SECTION 2 -------*/
+.home-hero {
+    background-image: url(/assets/images/vic_park.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .clearfix {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
-    padding: 10%;
-    padding-top: 2%;
+    padding: 75px;
+    padding-top: 30px;
     font-size: 18px;
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-bandstand {
+    padding-left: 150px;
+
 }
 
 .image-padding {
-    padding: 20px;
+    padding: 75px;
+
+
 }
 
-.time {
-    position: relative;
+#time {
+
     font-size: 40px;
     text-align: center;
     padding-top: 160px 50px;
     font-weight: bold;
-    bord
+
 }
 
 .fountain {
