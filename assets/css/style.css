@@ -1,6 +1,8 @@
 /* Section 1*/
 header {
+    position: fixed;
     background-attachment: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -8,12 +10,17 @@ h1 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-attachment: fixed;
+    padding-bottom: 5px;
 }
 
 nav {
     background-color: #7df379;
     overflow: hidden;
     nav-down: auto;
+    position:fixed;
+    background-attachment: fixed;
+    width:100%;
+    
 
 }
 
@@ -65,10 +72,12 @@ nav a.active {
 
 .image-bandstand {
     padding-left: 150px;
-
+    height:auto;
 }
 
-
+.image-play {
+    transform: scale (0.1);
+}
 
 #time {
 
@@ -161,7 +170,7 @@ html {
 }
 
 .parallax-effect+div {
-    height: 900px;
+    height: 600px;
     background-image: linear-gradient(to bottom #14d9fc, #b3f7a8);
     font-size: 18px;
     text-align: left;
