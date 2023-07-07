@@ -83,7 +83,7 @@ nav a.active {
 
     font-size: 40px;
     text-align: center;
-    padding-top: 160px 50px;
+    padding-top: 20px;
     font-weight: bold;
 
 }
@@ -96,12 +96,12 @@ nav a.active {
 }
 
 .map-text {
-    text-align: center;
+    text-indent:;
 }
 
 .map {
     float: right;
-    padding-right: 200px;
+    padding-bottom: 20px;
 }
 
 /*--------SECTION 4 --------*/
@@ -151,14 +151,7 @@ html {
 
 }
 
-.google maps {
-    width: 45%;
-    padding: 1rem 2.5% 0;
-    border: 20px solid #4b4d4b;
-    float: left;
-}
-
-/*---------practice scroll--------*/
+/*---------parallex on index.html--------*/
 
 .parallax-effect {
     background-image: url(/assets/images/vic_park.jpg);
