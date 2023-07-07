@@ -55,7 +55,7 @@ nav a.active {
 
 .clearfix {
     background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
-    padding: 75px;
+    padding: 55px;
     padding-top: 30px;
     font-size: 18px;
     text-align: justify;
@@ -68,11 +68,7 @@ nav a.active {
 
 }
 
-.image-padding {
-    padding: 75px;
 
-
-}
 
 #time {
 
@@ -132,16 +128,6 @@ html {
     list-style-type: square;
 }
 
-.facilities-text {
-    text-align: left;
-}
-
-.list-space {
-
-    padding: 10px 10px;
-}
-
-
 /*--------SECTION 3---------*/
 
 /*-------CONTACT PAGE-------*/
@@ -161,4 +147,23 @@ html {
     padding: 1rem 2.5% 0;
     border: 20px solid #4b4d4b;
     float: left;
+}
+
+/*---------practice scroll--------*/
+
+.parallax-effect {
+    background-image: url(/assets/images/vic_park.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-effect+div {
+    height: 900px;
+    background-image: linear-gradient(to bottom #14d9fc, #b3f7a8);
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
