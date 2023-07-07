@@ -61,13 +61,12 @@ nav a.active {
 
 
 .clearfix {
-    background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
-    padding: 55px;
-    padding-top: 30px;
+    background: #33ccff;
     font-size: 18px;
     text-align: justify;
     text-justify: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
 }
 
 .image-bandstand {
@@ -114,7 +113,7 @@ nav a.active {
 body,
 html {
     height: 100%;
-    background: linear-gradient(to bottom, #33ccff 0%, #7df379 100%);
+    background:#33ccff;
     text-align: center;
 }
 
@@ -164,7 +163,7 @@ html {
 
 .parallax-effect+div {
     height: 600px;
-    background-image: linear-gradient(to bottom #14d9fc, #b3f7a8);
+    background-image: #33ccff;
     font-size: 18px;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
