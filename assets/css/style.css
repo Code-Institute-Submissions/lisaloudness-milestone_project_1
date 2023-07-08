@@ -1,4 +1,4 @@
-/* Section 1*/
+/*index.html - title and nav*/
 header {
     position: fixed;
     background-attachment: fixed;
@@ -142,18 +142,13 @@ background-color: #85defc;
     
 }
 
-
-
-/*--------SECTION 3---------*/
-
 /*-------CONTACT PAGE-------*/
-.form-page {
-    background-image: url(/assets/images/vic_park.jpg);
-    height: 50%;
-    width: 100%;
+.parallax-effect3 {
+    background-image: url(/assets/images/splash_summer2.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
+    margin: 0px;
 }
