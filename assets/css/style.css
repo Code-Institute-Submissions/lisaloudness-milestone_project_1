@@ -17,10 +17,10 @@ nav {
     background-color: #7df379;
     overflow: hidden;
     nav-down: auto;
-    position:fixed;
+    position: fixed;
     background-attachment: fixed;
-    width:100%;
-    
+    width: 100%;
+
 
 }
 
@@ -48,16 +48,26 @@ nav a.active {
     text-decoration: underline;
 }
 
-/* -------- SECTION 2 -------*/
-.home-hero {
+/*---------parallex on index.html--------*/
+
+.parallax-effect {
     background-image: url(/assets/images/vic_park.jpg);
-    height: 100%;
-    width: 100%;
+    min-height: 600px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
+
+.parallax-effect+div {
+    height: 1000px;
+    background-image: #33ccff;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 
 .clearfix {
@@ -69,51 +79,30 @@ nav a.active {
     padding: 20px;
 }
 
-.image-bandstand {
-    padding-left: 150px;
-    height:auto;
-}
-
 .image-play {
-    transform: scale (0.1);
+    transform: scale (0.5);
+    padding-bottom: 20px;
 }
 
 #time {
-
     font-size: 40px;
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
-
 }
 
-.fountain {
-    position: relative;
-    padding: 70px 50px 50px 70px;
-    text-align: left;
-    font-size: 18px;
-}
-
-.map-text {
-    text-indent:;
-}
-
-.map {
-    float: right;
-    padding-bottom: 20px;
-}
 
 /*--------SECTION 4 --------*/
 .social {
     text-align: center;
-    background-color: lightgrey;
+    background-color: #33ccff;
 }
 
 /*--------FACILITIES--------*/
 body,
 html {
     height: 100%;
-    background:#33ccff;
+    background: #33ccff;
     text-align: center;
 }
 
@@ -150,21 +139,3 @@ html {
 
 }
 
-/*---------parallex on index.html--------*/
-
-.parallax-effect {
-    background-image: url(/assets/images/vic_park.jpg);
-    min-height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-effect+div {
-    height: 600px;
-    background-image: #33ccff;
-    font-size: 18px;
-    text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
