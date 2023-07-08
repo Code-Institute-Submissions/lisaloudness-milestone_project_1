@@ -6,7 +6,7 @@ header {
 }
 
 h1 {
-    background-color: #33ccff;
+    background-color: #65d7fd;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ nav a.active {
 
 /*---------parallex on index.html--------*/
 
-.parallax-effect {
+.parallax-effect1 {
     background-image: url(/assets/images/vic_park.jpg);
     min-height: 900px;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ nav a.active {
 }
 
 .scroll1 {
-    background: #33ccff;
+    background: #85defc;
     font-size: 18px;
     text-align: justify;
     text-justify: left;
@@ -79,13 +79,13 @@ nav a.active {
 }
 
 .scroll2 {
-    background: #33ccff;
+    background: #85defc;
     font-size: 18px;
     text-align: justify;
     text-justify: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 
 
 }
@@ -105,7 +105,7 @@ nav a.active {
 }
 
 .map {
-    text-align: center;
+    float: center;
 }
 
 .map-text {
@@ -115,35 +115,34 @@ nav a.active {
 /*--------SECTION 4 --------*/
 .social {
     text-align: center;
-    background-color: #33ccff;
+    background-color: #85defc;
 }
 
 /*--------FACILITIES--------*/
-body,
-html {
-    height: 100%;
-    background: #33ccff;
-    text-align: center;
-}
-
-/*--------SECTION 1---------*/
-
-
-/*--------SECTION 2---------*/
-.splash {
-    height: 50%;
-    width: 100%;
+.parallax-effect2 {
     background-image: url(/assets/images/splash_summer2.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
+}
+.splash {
+background-color: #85defc;
 }
 
 .splash-text {
     text-align: left;
-    padding: 0px 80px;
-    list-style-type: square;
+    padding: 30px 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+.splash-times {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+
+
 
 /*--------SECTION 3---------*/
 
