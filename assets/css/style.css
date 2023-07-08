@@ -142,9 +142,9 @@ background-color: #85defc;
     
 }
 
-/*-------CONTACT PAGE-------*/
+/*-------CONTACT_US-------*/
 .parallax-effect3 {
-    background-image: url(/assets/images/splash_summer2.jpg);
+    background-image: url(/assets/images/fountain.jpg);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
