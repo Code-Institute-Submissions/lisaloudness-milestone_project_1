@@ -66,6 +66,7 @@ nav a.active {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 50px;
+    text-indent: 30px;
  
 
 }
@@ -102,6 +103,7 @@ nav a.active {
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
+    background: #85defc;
 }
 
 .map {
@@ -110,6 +112,7 @@ nav a.active {
 
 .map-text {
     text-align: center;
+    background: #85defc;
 }
 
 /*--------SECTION 4 --------*/
