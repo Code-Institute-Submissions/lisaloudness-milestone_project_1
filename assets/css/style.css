@@ -63,10 +63,10 @@ nav a.active {
     background: #85defc;
     font-size: 18px;
     text-align: justify;
-    text-justify: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 50px;
+ 
 
 }
 
@@ -135,6 +135,10 @@ background-color: #85defc;
 .splash-text {
     text-align: left;
     padding: 30px 80px;
+}
+
+th, td {
+    padding: 20px;
 }
 
 /*--------CONTACT--------*/
