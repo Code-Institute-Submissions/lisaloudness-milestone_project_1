@@ -66,7 +66,8 @@ nav a.active {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 50px;
-    text-indent: 30px;
+    padding-left: 50px;
+    
  
 
 }
@@ -76,7 +77,7 @@ nav a.active {
     height: 400px;
     float: right;
     padding-left: 60px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .scroll2 {
@@ -87,6 +88,7 @@ nav a.active {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 50px;
 
 
 }
@@ -95,7 +97,7 @@ nav a.active {
     width: 570px;
     height: 350px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 #time {
@@ -133,12 +135,16 @@ nav a.active {
 }
 .splash {
 background-color: #85defc;
+padding-top: 30px;
+padding-left: 50px;
 }
 
 .splash-text {
     text-align: left;
-    padding: 30px 80px;
+    width: 450px;
 }
+
+
 
 th, td {
     padding: 20px;
