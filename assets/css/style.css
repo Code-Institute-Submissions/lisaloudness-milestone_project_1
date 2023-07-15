@@ -110,6 +110,7 @@ nav a.active {
 
 .map {
     float: center;
+    
 }
 
 .map-text {
@@ -152,6 +153,17 @@ h3, h5 {
 th, td {
     padding: 15px;
 }
+
+.amenities-list {
+background-color: #85defc;
+text-align: center;
+
+}
+#facilities-ul {
+    list-style-type: none;
+    line-height: 20px;
+}
+
 
 /*--------CONTACT--------*/
 
