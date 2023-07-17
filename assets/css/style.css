@@ -54,7 +54,7 @@ nav a.active {
 /*---------parallex on index.html--------*/
 
 .parallax-effect1 {
-    background-image: url(../assets/images/vic_park.jpg);
+    background-image: url(assets/images/vic_park.jpg);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -130,7 +130,7 @@ nav a.active {
 
 /*--------FACILITIES--------*/
 .parallax-effect2 {
-    background-image: url(../assets/images/splash_summer2.jpg);
+    background-image: url(assets/images/splash_summer2.jpg);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -172,7 +172,7 @@ text-align: center;
 /*--------CONTACT--------*/
 
 .parallax-effect3 {
-    background-image: url(../assets/images/waterfountain.jpg);
+    background-image: url(assets/images/waterfountain.jpg);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
