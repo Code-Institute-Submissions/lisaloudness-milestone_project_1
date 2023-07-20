@@ -18,6 +18,7 @@ nav {
     position: fixed;
     background-attachment: fixed;
     width: 100%;
+    text-align: end;
 }
 
 nav a {
@@ -36,7 +37,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(5, 183, 5);
     color: white;
     text-decoration: underline;
 }
@@ -73,7 +74,7 @@ nav a.active {
     background: #85defc;
     font-size: 18px;
     text-align: justify;
-   
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -119,31 +120,35 @@ nav a.active {
     background-size: cover;
     margin: 0px;
 }
+
 .splash {
-background-color: #85defc;
-padding-top: 30px;
+    background-color: #85defc;
+    padding-top: 30px;
 
 }
 
 .splash-text {
     text-align: left;
-   padding-right: 15px;
+    padding-right: 15px;
 }
 
-h3, h5 {
+h3,
+h5 {
     text-align: center;
 }
 
 
-th, td {
+th,
+td {
     padding: 15px;
 }
 
 .amenities-list {
-background-color: #85defc;
-text-align: center;
+    background-color: #85defc;
+    text-align: center;
 
 }
+
 #facilities-ul {
     list-style-type: none;
     line-height: 20px;
@@ -162,9 +167,7 @@ text-align: center;
     margin: 0px;
 }
 
-.form
-
-.container {
+.form .container {
     position: absolute;
     left: 20px;
     top: 200px;
@@ -208,13 +211,12 @@ input[type=password]:focus {
 /*GALLERY PAGE STYLING*/
 
 #photo {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
 }
+
 #photo img {
     width: 100%;
 }
-
-
