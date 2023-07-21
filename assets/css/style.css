@@ -18,7 +18,6 @@ nav {
     position: fixed;
     background-attachment: fixed;
     width: 100%;
-    text-align: end;
 }
 
 nav a {
@@ -37,10 +36,33 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: rgb(5, 183, 5);
+    background-color: #04AA6D;
     color: white;
     text-decoration: underline;
 }
+
+/*--------EVENT COLOUMN --------*/
+.event-container {
+    font-family: Roboto, sans-serif;
+    max-width: 800px;
+
+    .event-container .event {
+        box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+        display: flex;
+        border-radius: 8px;
+        margin: 32px 0;
+    }
+
+    .event-container .event {
+        box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+        display: flex;
+        border-radius: 8px;
+        margin: 32px 0;
+    }
+
+
+
+
 
 .parallax-effect1 {
     background-image: url(../images/vic_park.jpg);
