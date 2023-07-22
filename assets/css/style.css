@@ -4,6 +4,8 @@ header {
     width: 100%;
 }
 
+
+
 h1 {
     background-color: #65f560;
     text-align: center;
@@ -59,6 +61,7 @@ nav a.active {
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 50px;
+    
 }
 
 #image-bandstand {
@@ -107,6 +110,7 @@ nav a.active {
 .social {
     text-align: center;
     background-color: #85defc;
+    background-attachment: fixed;
 }
 
 /*--------FACILITIES--------*/
@@ -126,17 +130,19 @@ padding-top: 30px;
 }
 
 .splash-text {
-    text-align: left;
+text-align: left;
    padding-right: 15px;
+   padding-left: -30px;
 }
 
-h3, h5 {
+.splash-times h3, h5 {
     text-align: center;
 }
 
 
 th, td {
     padding: 15px;
+    text-align: end;
 }
 
 .amenities-list {
