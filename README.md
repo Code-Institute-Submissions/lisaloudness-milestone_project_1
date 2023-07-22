@@ -2,7 +2,7 @@
 
 Welcome to Victoria Park Community website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.
 
-[View the live project here](https://github.com/lisaloudness/project1_community_page.git)
+[View the live project here](https://lisaloudness.github.io/milestone_project_1/)
 
 ## **Introduction**
 
