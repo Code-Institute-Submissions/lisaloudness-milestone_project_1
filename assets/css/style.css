@@ -157,17 +157,9 @@ footer {
     font-size: 15px;
 }
 
-.social a:link {
-    color: rgb(136, 210, 245);
-    background-color: transparent;
-    text-decoration: underline;
-}
 
-p a:link {
-    color: rgb(136, 210, 245);
-    background-color: transparent;
-    text-decoration: underline;
-}
+
+
 
 /*--------FACILITIES BACKGROUND--------*/
 .parallax-effect2 {
