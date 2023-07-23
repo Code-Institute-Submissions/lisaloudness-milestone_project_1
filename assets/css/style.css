@@ -6,43 +6,72 @@ header {
 
 
 
-h1 {
-    background-color: #65f560;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-attachment: fixed;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------HEADER NAV BAR --------*/
 
 nav {
-    background-color: #65f560;
-    overflow: hidden;
+    background-color: #0c330c;
+    overflow: visible;
     nav-down: auto;
     position: fixed;
     background-attachment: fixed;
     width: 100%;
+    display: inline-block;
+    height: 103px;
+   
+}
+
+nav img {
+    position: absolute;
+    height: 100px;
+    margin-left: 50px;
+   
+}
+
+nav h1 {
+    align-self: center;
+    margin-left: 250px;
+    color: #faf9fc;
+    font-size: 50px;
 }
 
 nav a {
-    float: left;
-    color: #5819ec;
-    text-align: center;
+    float: right;
+    color: #faf9fc;
+    text-align: end;
     padding: 10px 40px;
     text-decoration: none;
     font-size: 17px;
     text-indent: 20px;
+    align-self: flex-end;
+    direction: ltr;
+    
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+ 
+    color: rgb(221, 217, 217);
 }
 
 nav a.active {
-    background-color: #04AA6D;
+    
     color: white;
     text-decoration: underline;
 }
 
+
+/*--------HOME BACKGROUND --------*/
 .parallax-effect1 {
     background-image: url(../images/vic_park.jpg);
     min-height: 900px;
@@ -53,15 +82,17 @@ nav a.active {
     margin: 0;
 }
 
+/*--------HOME WELCOME--------*/
 .scroll1 {
-    background: #85defc;
+    background-color: #0c330c;
+    color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 50px;
-    
+
 }
 
 #image-bandstand {
@@ -72,8 +103,10 @@ nav a.active {
     padding-right: 50px;
 }
 
+/*--------HOME THINGS TO DO--------*/
 .scroll2 {
-    background: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
 
@@ -92,28 +125,39 @@ nav a.active {
     padding-right: 50px;
 }
 
+/*--------HOME OPENING TIMES AND MAP--------*/
 #time {
     font-size: 40px;
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
-    background: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
 }
 
 
 .map-text {
     text-align: center;
-    background: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
 }
 
-/*--------SECTION 4 --------*/
-.social {
+/*--------FOOTER ON ALL PAGES --------*/
+footer {
     text-align: center;
-    background-color: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
     background-attachment: fixed;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#copyright {
+    float:right;
+    padding-right: 30px;
+    font-size: 15px;
 }
 
-/*--------FACILITIES--------*/
+/*--------FACILITIES BACKGROUND--------*/
 .parallax-effect2 {
     background-image: url(../images/splash_summer2.jpg);
     min-height: 900px;
@@ -124,20 +168,18 @@ nav a.active {
     margin: 0px;
 }
 
+/*--------FACILITIES SPLASHPAD--------*/
 .splash {
-    background-color: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
     padding-top: 30px;
-
-}
-
-.splash-text {
-text-align: left;
-   padding-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 
 
-
-.splash-times h3, h5 {
+.splash-times h3,
+h5 {
     text-align: center;
     padding-right: 15px;
 }
@@ -148,9 +190,12 @@ td {
     text-align: end;
 }
 
+/*--------FACILITIES AMINITIES--------*/
 .amenities-list {
-    background-color: #85defc;
+    background-color: #0c330c;
+        color: #f1f1f1;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -160,18 +205,18 @@ td {
 }
 
 
-/*--------CONTACT--------*/
+/*--------NEWSLETTER BACKGROUND--------*/
 
 .parallax-effect3 {
     background-image: url(../images/waterfountain.jpg);
-    min-height: 900px;
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
 }
-
+/*--------NEWSLETTER FORM--------*/
 .form .container {
     position: absolute;
     left: 20px;
@@ -179,22 +224,23 @@ td {
     margin: 20px;
     width: 500px;
     padding: 16px;
-    background-color: white;
+    background-color: rgb(233, 250, 238);
 }
 
 /* Full-width input fields */
 input[type=text],
-input[type=password],textarea {
+input[type=password],
+textarea {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
-    background: #f1f1f1;
+    background: #effaf1;
 }
 
 input[type=text]:focus,
 input[type=password]:focus {
-    background-color: #ddd;
+    background-color: #effaf1;
     outline: none;
 }
 
