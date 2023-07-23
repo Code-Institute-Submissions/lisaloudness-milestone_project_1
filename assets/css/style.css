@@ -73,7 +73,7 @@ nav a.active {
 
 /*--------HOME BACKGROUND --------*/
 .parallax-effect1 {
-    background-image: url(../images/vic_park.jpg);
+    background-image: url(../images/vic_park.webp);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -157,9 +157,21 @@ footer {
     font-size: 15px;
 }
 
+.social a:link {
+    color: rgb(136, 210, 245);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+p a:link {
+    color: rgb(136, 210, 245);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 /*--------FACILITIES BACKGROUND--------*/
 .parallax-effect2 {
-    background-image: url(../images/splash_summer2.jpg);
+    background-image: url(../images/splash_summer2.webp);
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -204,11 +216,17 @@ td {
     line-height: 20px;
 }
 
+#facilities-ul a:link {
+    color: rgb(136, 210, 245);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 
 /*--------NEWSLETTER BACKGROUND--------*/
 
 .parallax-effect3 {
-    background-image: url(../images/waterfountain.jpg);
+    background-image: url(../images/waterfountain.webp);
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -271,3 +289,4 @@ input[type=password]:focus {
 #photo img {
     width: 100%;
 }
+
