@@ -21,7 +21,7 @@ header {
 /*--------HEADER NAV BAR --------*/
 
 nav {
-    background-color: #0c330c;
+    background-color: #2A4848ff;
     overflow: visible;
     nav-down: auto;
     position: fixed;
@@ -29,14 +29,23 @@ nav {
     width: 100%;
     display: inline-block;
     height: 103px;
-   
+
 }
 
 nav img {
     position: absolute;
     height: 100px;
     margin-left: 50px;
-   
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    nav img {
+        height: 100px;
+        margin-left: 50px;
+
+    }
 }
 
 nav h1 {
@@ -56,16 +65,16 @@ nav a {
     text-indent: 20px;
     align-self: flex-end;
     direction: ltr;
-    
+
 }
 
 nav a:hover {
- 
+
     color: rgb(221, 217, 217);
 }
 
 nav a.active {
-    
+
     color: white;
     text-decoration: underline;
 }
@@ -84,29 +93,27 @@ nav a.active {
 
 /*--------HOME WELCOME--------*/
 .scroll1 {
-    background-color: #0c330c;
+    background-color:#2A4848;
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding-bottom: 10px;
 
 }
 
 #image-bandstand {
     width: 700px;
     height: 400px;
-    float: right;
-    padding-left: 60px;
-    padding-right: 50px;
+    float: inline-end;
+    
 }
 
 /*--------HOME THINGS TO DO--------*/
 .scroll2 {
-    background-color: #0c330c;
-        color: #f1f1f1;
+    background-color: #2A4848;
+    color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
 
@@ -131,28 +138,29 @@ nav a.active {
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
-    background-color: #0c330c;
-        color: #f1f1f1;
+    background-color: #2A4848ff;
+    color: #f1f1f1;
 }
 
 
 .map-text {
     text-align: center;
-    background-color: #0c330c;
-        color: #f1f1f1;
+ +   background-color: #2A4848ff;
+    color: #f1f1f1;
 }
 
 /*--------FOOTER ON ALL PAGES --------*/
 footer {
     text-align: center;
-    background-color: #0c330c;
-        color: #f1f1f1;
+    background-color: #2A4848ff;
+    color: #f1f1f1;
     background-attachment: fixed;
     font-size: 20px;
     padding-bottom: 10px;
 }
+
 #copyright {
-    float:right;
+    float: right;
     padding-right: 30px;
     font-size: 15px;
 }
@@ -174,11 +182,11 @@ footer {
 
 /*--------FACILITIES SPLASHPAD--------*/
 .splash {
-    background-color: #0c330c;
-        color: #f1f1f1;
+    background-color:#2A4848;
+    color: #f1f1f1;
     padding-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+
 }
 
 
@@ -196,8 +204,8 @@ td {
 
 /*--------FACILITIES AMINITIES--------*/
 .amenities-list {
-    background-color: #0c330c;
-        color: #f1f1f1;
+    background-color: #2A4848;
+    color: #f1f1f1;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -225,16 +233,19 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    background-color: transparent ;
 }
+
 /*--------NEWSLETTER FORM--------*/
 .form .container {
     position: absolute;
+    color: #f1f1f1;
     left: 20px;
     top: 200px;
     margin: 20px;
     width: 500px;
     padding: 16px;
-    background-color: rgb(233, 250, 238);
+    background-color: #2A4848;
 }
 
 /* Full-width input fields */
@@ -281,4 +292,3 @@ input[type=password]:focus {
 #photo img {
     width: 100%;
 }
-
