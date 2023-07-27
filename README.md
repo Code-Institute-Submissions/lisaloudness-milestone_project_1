@@ -6,7 +6,7 @@ Welcome to Victoria Park Community website. This website has been developed to p
 
 ## **Introduction**
 
-Main aim of this website is to provide a comprehensive landing site to bring together all the various social media pages in one place so that no user is excluded from information if they are not signed up to a number of different websites. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
+Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
 
 ## **UX**
 
@@ -18,9 +18,11 @@ New users will be visitors to the park.
 
 New users will be potential business users to the park.
 
+Future users will be people researching the area for living and business use.
+
 ## **Website Design**
 
-The website will consist of three pages:
+The website will consist of four pages:
 
 ### **Home Page**
 

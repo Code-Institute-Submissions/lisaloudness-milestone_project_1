@@ -1,52 +1,39 @@
-header {
-    position: fixed;
-    background-attachment: fixed;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 /*--------HEADER NAV BAR --------*/
 
+
+header {
+    position:fixed;
+}
+
 nav {
+    position: fixed;
     background-color: #2A4848ff;
-    overflow: visible;
+    float: left;
     nav-down: auto;
     position: fixed;
     background-attachment: fixed;
-    width: 100%;
-    display: inline-block;
-    height: 103px;
+    width: auto;
+    display: inline;
+    height: 130px;
 
+   
 }
 
 nav img {
-    position: fixed;
-    height: 100px;
-    margin-left: 50px;
-
+    position: fluid;
+    height: 85px;
 }
 
-@media only screen and (min-width: 600px) {
 
-    nav img {
-        height: 100px;
-        margin-left: 50px;
-
-    }
-}
 
 nav h1 {
     align-self: center;
@@ -56,15 +43,15 @@ nav h1 {
 }
 
 nav a {
-    float: right;
+    float: left;
     color: #faf9fc;
-    text-align: end;
+    text-align: center;
     padding: 10px 40px;
     text-decoration: none;
     font-size: 17px;
-    text-indent: 20px;
+    text-indent: 10px;
     align-self: flex-end;
-    direction: ltr;
+    
 
 }
 
