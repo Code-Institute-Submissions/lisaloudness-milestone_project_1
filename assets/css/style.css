@@ -94,60 +94,63 @@ nav a.active {
 
 /*--------EVENT COLOUMN --------*/
 .event-container {
+    position:absolute;
     font-family: Roboto, sans-serif;
-    max-width: 800px;
+    max-width: 600px;
+    background-size: auto;
+    background: #04AA6D;
 }
 
-.event-container h3.year {
-    font-size: 40px;
+.year {
+    font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
 }
 
-.event-container .event {
-        box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+.event {
+        box-shadow: 0 4px 16px -8px #2A4848;
         display: flex;
         border-radius: 8px;
-        margin: 32px 0;
+        margin: 25px 0;
     }
 
-.event .event-left {
-    background: #222;
+.event-left {
+    background: #2A4848;;
     min-width: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding:8px 48px;
+    padding:8px 20px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
-.event .event-left .date {
+.date {
     font-size: 56px;
 }
 
-.event .event-left .month {
+.month {
     font-size: 16px;
     font-weight: normal;
 }
 
-.event .event-right {
+.event-right {
     display: flex;
     flex-direction: column;
     justify-content: center:
     padding: 0 24px;
 }
 
-.event .event-right h3.event-title {
+.event-title {
     font-size: 24px;
     margin: 24px 0 10px 0;
-    color: #218bbb;
+    color: #1b1b1b;
     text-transform: uppercase;
 }
 
-.event .event-right h3.event-timing {
-    background: #fff8ba;
+.event-timing {
+    background: #2A4848;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,9 +159,11 @@ nav a.active {
     border-radius: 16px;
     margin: 24px 0;
     font-size: 14px;
+    color: #f1f1f1;
+
 }
 
-.event .event-right .event-timing img {
+.event-timing img {
     height: 20px;
     padding-right: 8px;
 }
@@ -168,7 +173,7 @@ nav a.active {
         flex-direction: column;
     }
 
-    .event .event-left {
+    .event-left {
         padding: 0;
         border-radius: 8px 8px 0 0;
     }
@@ -337,7 +342,7 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-    background-color: transparent ;
+    
 }
 
 /*--------NEWSLETTER FORM--------*/
