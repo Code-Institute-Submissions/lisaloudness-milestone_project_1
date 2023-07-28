@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,23 +9,16 @@
 
 /*--------HEADER NAV BAR --------*/
 
-
-header {
-    position:fixed;
-}
-
 nav {
     position: fixed;
     background-color: #2A4848ff;
-    float: left;
     nav-down: auto;
     position: fixed;
     background-attachment: fixed;
     width: auto;
-    display: inline;
-    height: 130px;
+    display: block;
 
-   
+
 }
 
 nav img {
@@ -37,13 +30,27 @@ nav img {
 
 nav h1 {
     align-self: center;
-    margin-left: 250px;
+    margin-left: 20px;
     color: #faf9fc;
     font-size: 50px;
 }
 
-nav a {
-    float: left;
+@media only screen and (min-width: 600px) {
+    nav h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    nav h1 {
+        font-size: 40px;
+    }
+    
+}
+
+/* nav a {
     color: #faf9fc;
     text-align: center;
     padding: 10px 40px;
@@ -51,8 +58,34 @@ nav a {
     font-size: 17px;
     text-indent: 10px;
     align-self: flex-end;
-    
 
+
+} */
+
+
+.navbar-nav .nav-link {
+    color: #faf9fc;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    text-indent: 10px;
+    align-self: flex-end;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(185, 184, 184);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(216, 213, 213) !important;
+    text-decoration: underline;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show:hover {
+    color: rgb(185, 184, 184);
 }
 
 nav a:hover {
@@ -81,7 +114,7 @@ nav a.active {
 
 /*--------EVENT COLOUMN --------*/
 .event-container {
-    position:absolute;
+    position: absolute;
     font-family: Roboto, sans-serif;
     max-width: 600px;
     background-size: auto;
@@ -95,24 +128,26 @@ nav a.active {
 }
 
 .event {
-        box-shadow: 0 4px 16px -8px #2A4848;
-        display: flex;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
+    box-shadow: 0 4px 16px -8px #2A4848;
+    display: flex;
+    border-radius: 8px;
+    margin: 25px 0;
+}
 
 .event-left {
-    background: #2A4848;;
+    background: #2A4848;
+    ;
     min-width: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding:8px 20px;
+    padding: 8px 20px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
+
 .date {
     font-size: 56px;
 }
@@ -125,8 +160,7 @@ nav a.active {
 .event-right {
     display: flex;
     flex-direction: column;
-    justify-content: center:
-    padding: 0 24px;
+    justify-content: center: padding: 0 24px;
 }
 
 .event-title {
@@ -142,8 +176,7 @@ nav a.active {
     align-items: center;
     justify-content: center;
     width: 100px;
-    padding: 8px:
-    border-radius: 16px;
+    padding: 8px: border-radius: 16px;
     margin: 24px 0;
     font-size: 14px;
     color: #f1f1f1;
@@ -170,10 +203,12 @@ nav a.active {
         display: inline-block;
         font-size: 24px;
     }
-    
+
     .event .event-left .event-date {
         padding: 10px 0;
     }
+
+   
     
 }
 
@@ -189,7 +224,7 @@ nav a.active {
 
 /*--------HOME WELCOME--------*/
 .scroll1 {
-    background-color:#2A4848;
+    background-color: #2A4848;
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
@@ -200,10 +235,10 @@ nav a.active {
 }
 
 #image-bandstand {
-    width: 700px;
+    width: 100%;
     height: 400px;
     float: inline-end;
-    
+
 }
 
 /*--------HOME THINGS TO DO--------*/
@@ -222,10 +257,9 @@ nav a.active {
 }
 
 #image-play {
-    width: 570px;
+    width: 100%;
     height: 350px;
-    padding-left: 30px;
-    padding-right: 50px;
+    
 }
 
 /*--------HOME OPENING TIMES AND MAP--------*/
@@ -241,7 +275,7 @@ nav a.active {
 
 .map-text {
     text-align: center;
- +   background-color: #2A4848ff;
+    +background-color: #2A4848ff;
     color: #f1f1f1;
 }
 
@@ -278,7 +312,7 @@ footer {
 
 /*--------FACILITIES SPLASHPAD--------*/
 .splash {
-    background-color:#2A4848;
+    background-color: #2A4848;
     color: #f1f1f1;
     padding-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -329,7 +363,7 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-    
+
 }
 
 /*--------NEWSLETTER FORM--------*/
