@@ -52,7 +52,7 @@ Cylch Meithrin Y Parc
 
 #### _Key Features_
 
-Web form to include contact details, reason for enquiry
+Contact form to include name,email, reason for enquiry, radio buttons for newsletter
 
 ## Typography
 
@@ -95,12 +95,12 @@ Web form to include contact details, reason for enquiry
 
 #### \*Home Page
 
-![alt text](/assets/images/home_page.png)
+![alt text](/assets/images/home_page.webp)
 
 #### \*Facilities page.
 
-![alt text](/assets/images/facilities_page.png)
+![alt text](/assets/images/facilities_page.webp)
 
 #### \*Contact us page.
 
-![alt text](Documentation/Wireframes/contact_wireframe.png)
+![alt text](Documentation/Wireframes/contact_wireframe.webp)
