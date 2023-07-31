@@ -1,14 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
-
-
-
-/*--------HEADER NAV BAR --------*/
-
+/*--------NAV BAR --------*/
 nav {
     position: fixed;
     background-color: #2A4848ff;
@@ -16,16 +7,12 @@ nav {
     background-attachment: fixed;
     width: auto;
     display: block;
-
-
 }
 
 nav img {
     position: fluid;
     height: 85px;
 }
-
-
 
 nav h1 {
     align-self: center;
@@ -39,6 +26,24 @@ nav h1 {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    .scroll1 {
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+    .scroll2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+    .event-container {
+        position: relative;
+        left: 30px;
+    }
+    .map {
+        padding-right: 10%;
+    }
+
 }
 
 
@@ -66,7 +71,7 @@ nav h1 {
 }
 
 .navbar-nav .nav-link.active {
-    color: rgb(216, 213, 213) !important;
+    color: rgb(216, 213, 213);
     text-decoration: underline;
 }
 
@@ -107,7 +112,7 @@ nav a.active {
     font-family: Roboto, sans-serif;
     max-width: 500px;
     background-size: auto;
-    background: #04AA6D;
+    background: #9CD9A8ff;
 }
 
 .year {
@@ -198,6 +203,10 @@ nav a.active {
         padding: 10px 0;
     }
 
+    footer {
+        padding-bottom: 100px;
+        height: 100%;
+    }
    
     
 }
@@ -227,7 +236,7 @@ nav a.active {
 #image-bandstand {
     width: 100%;
     height: 400px;
-    float: inline-end;
+    
 
 }
 
@@ -241,7 +250,7 @@ nav a.active {
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
+
 
 
 }
@@ -267,6 +276,7 @@ nav a.active {
     text-align: center;
     background-color: #2A4848ff;
     color: #f1f1f1;
+    width: 100%
 }
 
 /*--------FOOTER ON ALL PAGES --------*/
@@ -276,7 +286,8 @@ footer {
     color: #f1f1f1;
     background-attachment: fixed;
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    padding-top:40px
 }
 
 #copyright {
@@ -292,7 +303,7 @@ footer {
 /*--------FACILITIES BACKGROUND--------*/
 .parallax-effect2 {
     background-image: url(../images/splash_summer2.webp);
-    min-height: 900px;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,9 +371,9 @@ td {
 .form .container {
     position: absolute;
     color: #f1f1f1;
-    left: 20px;
+    
     top: 200px;
-    margin: 20px;
+    
     width: 500px;
     padding: 16px;
     background-color: #2A4848;
@@ -403,6 +414,7 @@ input[type=password]:focus {
 /*GALLERY PAGE STYLING*/
 
 #photo {
+    
     clear: both;
     line-height: 0;
     column-count: 4;
