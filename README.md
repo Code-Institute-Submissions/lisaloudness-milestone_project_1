@@ -57,6 +57,7 @@ Web form to include contact details, reason for enquiry
 ## Typography
 
 ## Color scheme
+[COOLERS](https://coolors.co/image-picker)
 
 ## Features
 
