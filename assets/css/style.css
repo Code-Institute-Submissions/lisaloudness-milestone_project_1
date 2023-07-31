@@ -13,7 +13,6 @@ nav {
     position: fixed;
     background-color: #2A4848ff;
     nav-down: auto;
-    position: fixed;
     background-attachment: fixed;
     width: auto;
     display: block;
@@ -50,17 +49,6 @@ nav h1 {
     
 }
 
-/* nav a {
-    color: #faf9fc;
-    text-align: center;
-    padding: 10px 40px;
-    text-decoration: none;
-    font-size: 17px;
-    text-indent: 10px;
-    align-self: flex-end;
-
-
-} */
 
 
 .navbar-nav .nav-link {
@@ -112,11 +100,12 @@ nav a.active {
 }
 
 
+
 /*--------EVENT COLOUMN --------*/
 .event-container {
     position: absolute;
     font-family: Roboto, sans-serif;
-    max-width: 600px;
+    max-width: 500px;
     background-size: auto;
     background: #04AA6D;
 }
@@ -131,25 +120,24 @@ nav a.active {
     box-shadow: 0 4px 16px -8px #2A4848;
     display: flex;
     border-radius: 8px;
-    margin: 25px 0;
+    margin: 10px 0;
 }
 
 .event-left {
     background: #2A4848;
-    ;
     min-width: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding: 8px 20px;
+    padding: 8px 10px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
 
 .date {
-    font-size: 56px;
+    font-size: 45px;
 }
 
 .month {
@@ -160,11 +148,12 @@ nav a.active {
 .event-right {
     display: flex;
     flex-direction: column;
-    justify-content: center: padding: 0 24px;
+    justify-content: center;
+    padding: 0 24px;
 }
 
 .event-title {
-    font-size: 24px;
+    font-size: 20px;
     margin: 24px 0 10px 0;
     color: #1b1b1b;
     text-transform: uppercase;
@@ -176,7 +165,8 @@ nav a.active {
     align-items: center;
     justify-content: center;
     width: 100px;
-    padding: 8px: border-radius: 16px;
+    padding: 8px;
+    border-radius: 16px;
     margin: 24px 0;
     font-size: 14px;
     color: #f1f1f1;
@@ -275,7 +265,7 @@ nav a.active {
 
 .map-text {
     text-align: center;
-    +background-color: #2A4848ff;
+    background-color: #2A4848ff;
     color: #f1f1f1;
 }
 
