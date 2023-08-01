@@ -21,41 +21,6 @@ nav h1 {
     font-size: 50px;
 }
 
-@media only screen and (min-width: 600px) {
-    nav h1 {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .scroll1 {
-        padding-left: 10%;
-        padding-right: 10%;
-        }
-    .scroll2 {
-    padding-left: 10%;
-    padding-right: 10%;
-    }
-
-    .event-container {
-        position: relative;
-        left: 30px;
-    }
-    .map {
-        padding-right: 10%;
-    }
-
-}
-
-
-@media only screen and (max-width: 900px) {
-    nav h1 {
-        font-size: 40px;
-    }
-    
-}
-
-
-
 .navbar-nav .nav-link {
     color: #faf9fc;
     text-align: center;
@@ -75,19 +40,16 @@ nav h1 {
     text-decoration: underline;
 }
 
-
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show:hover {
     color: rgb(185, 184, 184);
 }
 
 nav a:hover {
-
     color: rgb(221, 217, 217);
 }
 
 nav a.active {
-
     color: white;
     text-decoration: underline;
 }
@@ -110,31 +72,33 @@ nav a.active {
 .event-container {
     position: absolute;
     font-family: Roboto, sans-serif;
-    max-width: 500px;
+    max-width: 100%;
     background-size: auto;
-    background: #9CD9A8ff;
+    background:  #2A4848;
+    left: 20px;
 }
 
 .year {
     font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
+    color: white;
 }
 
 .event {
-    box-shadow: 0 4px 16px -8px #2A4848;
+    box-shadow: 0 4px 16px -8px #9CD9A8ff;
     display: flex;
     border-radius: 8px;
     margin: 10px 0;
 }
 
 .event-left {
-    background: #2A4848;
+    background: #9CD9A8ff;
     min-width: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #eee;
+    color: black;
     padding: 8px 10px;
     font-weight: bold;
     text-align: center;
@@ -155,12 +119,13 @@ nav a.active {
     flex-direction: column;
     justify-content: center;
     padding: 0 24px;
+    color: white;
 }
 
 .event-title {
     font-size: 20px;
     margin: 24px 0 10px 0;
-    color: #1b1b1b;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -174,7 +139,7 @@ nav a.active {
     border-radius: 16px;
     margin: 24px 0;
     font-size: 14px;
-    color: #f1f1f1;
+    color: white;
 
 }
 
@@ -182,44 +147,6 @@ nav a.active {
     height: 20px;
     padding-right: 8px;
 }
-
-@media (max-width: 550px) {
-    .event {
-        flex-direction: column;
-    }
-
-    .event-left {
-        padding: 0;
-        border-radius: 8px 8px 0 0;
-    }
-
-    .event .event-left .event-date .date,
-    .event .event-left .event-date .month {
-        display: inline-block;
-        font-size: 24px;
-    }
-
-    .event .event-left .event-date {
-        padding: 10px 0;
-    }
-
-    footer {
-        padding-bottom: 100px;
-        height: 100%;
-    }
-   
-    
-}
-
-
-
-
-
-
-
-
-
-
 
 /*--------HOME WELCOME--------*/
 .scroll1 {
@@ -230,7 +157,6 @@ nav a.active {
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
-
 }
 
 #image-bandstand {
@@ -246,18 +172,18 @@ nav a.active {
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
-
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
+}
 
-
-
+#open-time {
+    font-size: 22px;
 }
 
 #image-play {
     width: 100%;
-    height: 350px;
+    height: 450px;
     
 }
 
@@ -358,7 +284,7 @@ td {
 
 .parallax-effect3 {
     background-image: url(../images/waterfountain.webp);
-    min-height: 1000px;
+    min-height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -371,12 +297,11 @@ td {
 .form .container {
     position: absolute;
     color: #f1f1f1;
-    
     top: 200px;
-    
-    width: 500px;
+    width: 100%;
     padding: 16px;
     background-color: #2A4848;
+ 
 }
 
 /* Full-width input fields */
@@ -423,4 +348,63 @@ input[type=password]:focus {
 
 #photo img {
     width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    nav h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .scroll1 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .scroll2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+        .form .container {
+            left: 25px;
+            width:500px;
+        }
+
+
+    .map {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav h1 {
+        font-size: 40px;
+    }
+
+@media (max-width: 550px) {
+    .event {
+        flex-direction: column;
+    }
+
+    .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+
+    footer {
+        padding-bottom: 100px;
+        height: 100%;
+    }
+
+
 }

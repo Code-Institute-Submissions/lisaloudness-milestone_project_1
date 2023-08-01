@@ -62,6 +62,7 @@ Contact form to include name,email, reason for enquiry, radio buttons for newsle
 ## Features
 
 ### Nav Bar
+Nav Bar is a Bootstrap responsive container.  
 
 ### Hero Image
 
