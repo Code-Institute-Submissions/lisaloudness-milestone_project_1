@@ -50,8 +50,8 @@ nav a:hover {
 }
 
 nav a.active {
-    color: white;
     text-decoration: underline;
+    color: white;
 }
 
 
@@ -70,7 +70,7 @@ nav a.active {
 
 /*--------EVENT COLOUMN --------*/
 .event-container {
-    position: absolute;
+    
     font-family: Roboto, sans-serif;
     max-width: 100%;
     background-size: auto;
@@ -89,7 +89,7 @@ nav a.active {
     box-shadow: 0 4px 16px -8px #9CD9A8ff;
     display: flex;
     border-radius: 8px;
-    margin: 10px 0;
+    
 }
 
 .event-left {
@@ -157,6 +157,7 @@ nav a.active {
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
+
 }
 
 #image-bandstand {
@@ -243,20 +244,27 @@ footer {
     color: #f1f1f1;
     padding-top: 30px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    display: flex;
+    }
 
-}
 
 
-.splash-times h3,
-h5 {
-    text-align: center;
-    padding-right: 15px;
+
+.splash h3 {
+        
+    margin: auto;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+                
+
 }
 
 th,
 td {
     padding: 15px;
-    text-align: end;
+    
 }
 
 /*--------FACILITIES AMINITIES--------*/
@@ -350,7 +358,9 @@ input[type=password]:focus {
     width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 500px) {
     nav h1 {
         margin-left: 10%;
         margin-right: 10%;
@@ -359,6 +369,7 @@ input[type=password]:focus {
     .scroll1 {
         padding-left: 10%;
         padding-right: 10%;
+       
     }
 
     .scroll2 {
@@ -369,12 +380,25 @@ input[type=password]:focus {
             left: 25px;
             width:500px;
         }
+    .event {
+        margin: 10px 0;
+    }
 
 
     .map {
         padding-right: 10%;
     }
-}
+    .event-container {
+        position: absolute;
+    }
+th, td {
+        text-align: end;
+    }
+
+
+
+
+                   
 
 @media only screen and (max-width: 900px) {
     nav h1 {
@@ -406,5 +430,12 @@ input[type=password]:focus {
         height: 100%;
     }
 
+    #image-bandstand {
+        display: none;
+    }
 
+    #image-play {
+        display: none;
+    }
+    
 }
