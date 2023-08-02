@@ -28,7 +28,7 @@ The website will consist of four pages:
 
 #### _Key Features_
 
-Landing page will have a Hero image below the website Title and Nav bar.
+Landing page will have a background image below the website Title and Nav bar.
 
 Opening times.
 
@@ -40,6 +40,9 @@ Brief summary about the park
 
 #### _Key Features_
 
+Splash Pad overview and opening times
+
+Web links to partner businesses operating n the park:
 Mamas Place
 
 Cardiff Beach Centre
@@ -62,11 +65,11 @@ Contact form to include name,email, reason for enquiry, radio buttons for newsle
 ## Features
 
 ### Nav Bar
-Nav Bar is a Bootstrap responsive container.  
-
-### Hero Image
+Nav Bar is a Bootstrap responsive container.   
 
 ### Footer
+
+
 
 ## Technologies used.
 
@@ -78,7 +81,7 @@ Nav Bar is a Bootstrap responsive container.
 
 ### **Frameworks, Libraries & Programs Used**
 
-- Bootstrap v4.3
+- Bootstrap v5.3
 
 - Google Fonts: was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
 
