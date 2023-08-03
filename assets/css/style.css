@@ -51,7 +51,7 @@ nav a:hover {
 
 nav a.active {
     text-decoration: underline;
-    color: white;
+    color: white !important
 }
 
 
@@ -279,6 +279,7 @@ td {
 #facilities-ul {
     list-style-type: none;
     line-height: 20px;
+    
 }
 
 #facilities-ul a:link {
@@ -360,89 +361,72 @@ input[type=password]:focus {
 
 
 /*MEDIA QUERIES*/
+@media only screen and (max-width: 900px) {
+    nav h1 {
+        font-size: 40px;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     nav h1 {
         margin-left: 10%;
         margin-right: 10%;
     }
-
-    .scroll1 {
-        padding-left: 10%;
-        padding-right: 10%;
-       
+    .scroll1 {  
+    padding-left: 10%;
+    padding-right: 10%;
     }
-
     .scroll2 {
         padding-left: 10%;
         padding-right: 10%;
     }
-        .form .container {
-            left: 25px;
-            width:500px;
-        }
+    .form .container {
+        left: 25px;
+        width:500px;
+    }
     .event {
         margin: 10px 0;
     }
-
-
     .map {
         padding-right: 10%;
     }
     .event-container {
         position: absolute;
     }
-th, td {
+    th, td {
         text-align: end;
     }
-
-.form .container {
-    top: 200px;
-}
-
-
-                   
-
-@media only screen and (max-width: 900px) {
-    nav h1 {
-        font-size: 40px;
+    .form .container {
+        top: 200px;
     }
+}
 
 @media only screen and (max-width: 550px) {
     .event {
         flex-direction: column;
     }
-
     .event-left {
         padding: 0;
         border-radius: 8px 8px 0 0;
     }
-
     .event .event-left .event-date .date,
     .event .event-left .event-date .month {
         display: inline-block;
         font-size: 24px;
     }
-
     .event .event-left .event-date {
         padding: 10px 0;
     }
-
     footer {
         padding-bottom: 100px;
         height: 100%;
     }
-
     #image-bandstand {
-    display: none !important;
-    height: 70%;
-        }
-    
-        #image-play {
-        display: none !important;
-        height: 70%;
-        }  
-
+        display: none;
+    }
+    #image-play {
+        display: none;
+    }  
 }
 
 
-}
