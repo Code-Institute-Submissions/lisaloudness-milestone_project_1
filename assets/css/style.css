@@ -1,7 +1,7 @@
 /*--------NAV BAR --------*/
 nav {
     position: fixed;
-    background-color: #2A4848ff;
+    background-color: #2a4848ff;
     nav-down: auto;
     background-attachment: fixed;
     width: auto;
@@ -9,7 +9,6 @@ nav {
 }
 
 nav img {
-
     height: 85px;
 }
 
@@ -53,7 +52,6 @@ nav a.active {
     color: white !important;
 }
 
-
 /*--------HOME BACKGROUND --------*/
 .parallax-effect1 {
     background-image: url(../images/vic_park.webp);
@@ -65,15 +63,12 @@ nav a.active {
     margin: 0;
 }
 
-
-
 /*--------EVENT COLOUMN --------*/
 .event-container {
-
     font-family: Roboto, sans-serif;
     max-width: 100%;
     background-size: auto;
-    background: #2A4848;
+    background: #2a4848;
     left: 20px;
 }
 
@@ -85,14 +80,13 @@ nav a.active {
 }
 
 .event {
-    box-shadow: 0 4px 16px -8px #9CD9A8ff;
+    box-shadow: 0 4px 16px -8px #9cd9a8ff;
     display: flex;
     border-radius: 8px;
-
 }
 
 .event-left {
-    background: #2f9a4c;
+    background: #aec547;
     min-width: 82px;
     display: flex;
     align-items: center;
@@ -129,7 +123,7 @@ nav a.active {
 }
 
 .event-timing {
-    background: #2A4848;
+    background: #2a4848;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +133,6 @@ nav a.active {
     margin: 24px 0;
     font-size: 14px;
     color: white;
-
 }
 
 .event-timing img {
@@ -149,30 +142,39 @@ nav a.active {
 
 /*--------HOME WELCOME--------*/
 .scroll1 {
-    background-color: #2A4848;
+    background-color: #2a4848;
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
+}
 
+#flag a:link {
+    color: #D4B20B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#flag a:v isited {
+    color: #D4B20B;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 #image-bandstand {
     width: 100%;
     height: 400px;
-
-
 }
 
-/*--------HOME THINGS TO DO--------*/
+/*------- -H OME THINGS TO DO--------*/
 .scroll2 {
-    background-color: #2f9a4c;
+    background-color: #8ca12e;
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -184,7 +186,6 @@ nav a.active {
 #image-play {
     width: 100%;
     height: 450px;
-
 }
 
 /*--------HOME OPENING TIMES AND MAP--------*/
@@ -193,27 +194,39 @@ nav a.active {
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
-    background-color: #2A4848ff;
+    background-color: #2a4848ff;
     color: #f1f1f1;
 }
-
 
 .map-text {
     text-align: center;
-    background-color: #2A4848ff;
+    background-color: #2a4848ff;
     color: #f1f1f1;
-    width: 100%
+    width: 100%;
 }
 
-/*--------FOOTER ON ALL PAGES --------*/
+/*------  --FOOTER ON ALL PAGES --------*/
 footer {
     text-align: center;
-    background-color: #2A4848ff;
+    background-color: #2a4848ff;
     color: #f1f1f1;
     background-attachment: fixed;
     font-size: 20px;
     padding-bottom: 25px;
-    padding-top: 40px
+    padding-top: 40px;
+}
+
+footer a:link {
+    color: #D4B20B;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+footer a:visited {
+    color: #D4B20B;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 #copyright {
@@ -222,12 +235,8 @@ footer {
     font-size: 15px;
 }
 
-
-
-
-
 /*--------FACILITIES BACKGROUND--------*/
-.parallax-effect2 {
+.parall ax-effect2 {
     background-image: url(../images/splash_summer2.webp);
     min-height: 800px;
     background-attachment: fixed;
@@ -239,50 +248,47 @@ footer {
 
 /*--------FACILITIES SPLASHPAD--------*/
 .splash {
-    background-color: #2A4848;
+    background-color: #2a4848;
     color: #f1f1f1;
     padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 10 px;
     display: flex;
 }
 
-
-
-
 .splash h3 {
-
     margin: auto;
     width: 100%;
     border: 1px solid white;
     padding: 10px;
-
-
 }
 
 th,
 td {
     padding: 15px;
-
 }
 
-/*--------FACILITIES AMINITIES--------*/
+/*  --------FACILITIES AMINITIES--------*/
 .amenities-list {
-    background-color: #2A4848;
+    background-color: #2a4848;
     color: #f1f1f1;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: "Roboto", sans-serif;
 }
 
 #facilities-ul {
     list-style-type: none;
     line-height: 20px;
-
 }
 
-#facilities-ul a:link {
-    color: rgb(136, 210, 245);
+#faciliti es-ul a:link {
+    color: #D4B20B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#facilities-ul a:visited {
+    color: #D4B20B;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -298,7 +304,6 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-
 }
 
 /*--------NEWSLETTER FORM--------*/
@@ -308,13 +313,12 @@ td {
     top: 40%;
     width: 100%;
     padding: 16px;
-    background-color: #2A4848;
-
+    background-color: #2a4848;
 }
 
 /* Full-width input fields */
-input[type=text],
-input[type=password],
+input[type="text"],
+input[type="password"],
 textarea {
     width: 100%;
     padding: 15px;
@@ -323,15 +327,14 @@ textarea {
     background: #effaf1;
 }
 
-input[type=text]:focus,
-input[type=password]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
     background-color: #effaf1;
     outline: none;
 }
 
 /* Set a style for the submit button */
 .btn {
-
     color: white;
     padding: 16px 20px;
     border: none;
@@ -347,7 +350,6 @@ input[type=password]:focus {
 /*GALLERY PAGE STYLING*/
 
 #photo {
-
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -357,7 +359,6 @@ input[type=password]:focus {
 #photo img {
     width: 100%;
 }
-
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 900px) {
@@ -441,4 +442,5 @@ input[type=password]:focus {
     #image-play {
         display: none;
     }
+    
 }
