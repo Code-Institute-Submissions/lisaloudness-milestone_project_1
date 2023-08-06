@@ -151,14 +151,14 @@ nav a.active {
     padding-bottom: 10px;
 }
 
-#flag a:link {
-    color: #D4B20B;
+.green-flag a:link {
+    color: #D4B20B !important;
     background-color: transparent;
     text-decoration: underline;
 }
 
-#flag a:v isited {
-    color: #D4B20B;
+.green-flag a:visited {
+    color: #D4B20B !important;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -168,7 +168,7 @@ nav a.active {
     height: 400px;
 }
 
-/*------- -H OME THINGS TO DO--------*/
+/*------- -HOME THINGS TO DO--------*/
 .scroll2 {
     background-color: #8ca12e;
     color: #f1f1f1;
@@ -236,7 +236,7 @@ footer a:visited {
 }
 
 /*--------FACILITIES BACKGROUND--------*/
-.parall ax-effect2 {
+.parallax-effect2 {
     background-image: url(../images/splash_summer2.webp);
     min-height: 800px;
     background-attachment: fixed;
@@ -270,7 +270,7 @@ td {
 
 /*  --------FACILITIES AMINITIES--------*/
 .amenities-list {
-    background-color: #2a4848;
+    background-color: #8ca12e;
     color: #f1f1f1;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -281,7 +281,7 @@ td {
     line-height: 20px;
 }
 
-#faciliti es-ul a:link {
+#facilities-ul a:link {
     color: #D4B20B;
     background-color: transparent;
     text-decoration: underline;
@@ -298,7 +298,7 @@ td {
 
 .parallax-effect3 {
     background-image: url(../images/waterfountain.webp);
-    min-height: 750px;
+    min-height: 850px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -365,6 +365,14 @@ input[type="password"]:focus {
     nav h1 {
         font-size: 40px;
     }
+   
+        #image-bandstand {
+            display: none;
+        }
+    
+        #image-play {
+            display: none;
+        }
 }
 
 @media only screen and (min-width: 600px) {
@@ -408,9 +416,24 @@ input[type="password"]:focus {
     .form .container {
         top: 200px;
     }
+
+    footer span, a {
+        padding-right: 3rem;
+    }
+
+        #photo {
+            clear: both;
+            line-height: 0;
+            column-count: 3;
+            column-gap: 0px;
+            background-color: #2a4848;
+        }
 }
 
 @media only screen and (max-width: 550px) {
+    nav h1 {
+            font-size: 22px;
+        }
     .event {
         flex-direction: column;
     }
@@ -435,12 +458,14 @@ input[type="password"]:focus {
         height: 100%;
     }
 
-    #image-bandstand {
-        display: none;
-    }
+        #photo {
+            clear: both;
+            line-height: 0;
+            column-count: 1;
+            column-gap: 0px;
+            background-color: #2a4848;
+        }
 
-    #image-play {
-        display: none;
-    }
+        
     
 }
