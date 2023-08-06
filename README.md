@@ -34,7 +34,9 @@ Opening times.
 
 Social media links.
 
-Brief summary about the park
+Brief summary about the park.
+
+Google map.
 
 ### **Facilities Page**
 
@@ -42,7 +44,7 @@ Brief summary about the park
 
 Splash Pad overview and opening times
 
-Web links to partner businesses operating n the park:
+Web links to partner businesses operating in the park:
 Mamas Place
 
 Cardiff Beach Centre
@@ -55,45 +57,55 @@ Cylch Meithrin Y Parc
 
 #### _Key Features_
 
-Contact form to include name,email, reason for enquiry, radio buttons for newsletter
+Contact form to include name, email, reason for enquiry, radio buttons for newsletter.
 
 ## Typography
 
 ## Color scheme
-[COOLERS](https://coolors.co/image-picker)
+
+Using the [COOLERS](https://coolors.co/image-picker) colour palette generator, the colour scheme chosen is based on the logo. 
+
+![Colour Palette](assets/images/coolerpalette.png)
 
 ## Features
 
 ### Nav Bar
-Nav Bar is a Bootstrap responsive container.   
+Nav Bar is a Bootstrap responsive container which collapses to hamburger style drop-down menu.
 
 ### Footer
-
+Footer to include:
+Copyright
+Live weblinks to social media accounts partnered with social branding icon.
 
 
 ## Technologies used.
 
-### Languages Used
+### Main Languages Used
 
-- HTML5
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 
-- CSS3
+- [CSS3] (https://en.wikipedia.org/wiki/CSS "Link to CSS Wiki")
 
 ### **Frameworks, Libraries & Programs Used**
 
-- Bootstrap v5.3
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used to import icons (e.g. social media icons) for UX purposes.
+- [Code Anywhere](https://www.codeanywhere.com/ "Link to Code Anywhere homepage")
+     - Code Anywhere was used for writing code, commiting, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
+     - Balsamiq was used to create the wireframes during the design process.
 
-- Google Fonts: was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+- [Microsoft Paint 3D](https://en.wikipedia.org/wiki/Microsoft_Paint) was used for resizing images and editing photos for the website.     
 
-- Font Awesome: was used to add icons for aesthetic and UX purposes.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-- Git: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 
-- GitHub: is used as the respository for the projects code after being pushed from Git.
 
-- Microsoft Paint 3D: was used for resizing images and editing photos for the website.
-
-- Balsamiq: was used to create the wireframes during the design process.
 
 # Wireframes
 
@@ -105,6 +117,4 @@ Nav Bar is a Bootstrap responsive container.
 
 ![alt text](/assets/images/facilities_page.webp)
 
-#### \*Contact us page.
 
-![alt text](Documentation/Wireframes/contact_wireframe.webp)
