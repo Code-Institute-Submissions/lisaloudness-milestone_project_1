@@ -63,20 +63,21 @@ Contact form to include name, email, reason for enquiry, radio buttons for newsl
 
 ## Color scheme
 
-Using the [COOLERS](https://coolors.co/image-picker) colour palette generator, the colour scheme chosen is based on the logo. 
+Using the [COOLERS](https://coolors.co/image-picker) colour palette generator, the colour scheme chosen is based on the logo.
 
 ![Colour Palette](assets/images/coolerpalette.png)
 
 ## Features
 
 ### Nav Bar
+
 Nav Bar is a Bootstrap responsive container which collapses to hamburger style drop-down menu.
 
 ### Footer
+
 Footer to include:
 Copyright
 Live weblinks to social media accounts partnered with social branding icon.
-
 
 ## Technologies used.
 
@@ -84,28 +85,28 @@ Live weblinks to social media accounts partnered with social branding icon.
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 
-- [CSS3] (https://en.wikipedia.org/wiki/CSS "Link to CSS Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
 ### **Frameworks, Libraries & Programs Used**
 
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
-    - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
+  - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
-     - Font Awesome was used to import icons (e.g. social media icons) for UX purposes.
+  - Font Awesome was used to import icons (e.g. social media icons) for UX purposes.
 - [Code Anywhere](https://www.codeanywhere.com/ "Link to Code Anywhere homepage")
-     - Code Anywhere was used for writing code, commiting, and then pushing to GitHub.
+  - Code Anywhere was used for writing code, commiting, and then pushing to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
-     - GitHub was used to store the project after pushing
+  - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
-     - Balsamiq was used to create the wireframes during the design process.
 
-- [Microsoft Paint 3D](https://en.wikipedia.org/wiki/Microsoft_Paint) was used for resizing images and editing photos for the website.     
+  - Balsamiq was used to create the wireframes during the design process.
+
+- [Microsoft Paint 3D](https://en.wikipedia.org/wiki/Microsoft_Paint)
+
+  - was used for resizing images and editing photos for the website.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
-     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
-
-
-
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
 # Wireframes
 
@@ -116,5 +117,3 @@ Live weblinks to social media accounts partnered with social branding icon.
 #### \*Facilities page.
 
 ![alt text](/assets/images/facilities_page.webp)
-
-

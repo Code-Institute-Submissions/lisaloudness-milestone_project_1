@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Nunito' sans-serif;
+    font-size: 16px;
 }
 
 
@@ -186,7 +187,7 @@ nav a.active {
 
 /*------- -HOME THINGS TO DO--------*/
 .scroll2 {
-    background-color: #8ca12e;
+    background-color: #62760c;
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
@@ -199,27 +200,24 @@ nav a.active {
     font-size: 22px;
 }
 
-#image-play {
-    width: 100%;
-    height: 450px;
+#map-image {
+    float: right;
+    padding-bottom: 10px;
+}
+
+#map-text {
+    display: block;
+    text-align: center;
+
+}
+
+#address {
+    text-a lign: center;
+    list-style-type: none;
 }
 
 /*--------HOME OPENING TIMES AND MAP--------*/
-#time {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
-    background-color: #2a4848ff;
-    color: #f1f1f1;
-}
 
-.map-text {
-    text-align: center;
-    background-color: #2a4848ff;
-    color: #f1f1f1;
-    width: 100%;
-}
 
 /*------  --FOOTER ON ALL PAGES --------*/
 footer {
@@ -286,7 +284,7 @@ td {
 
 /*  --------FACILITIES AMINITIES--------*/
 .amenities-list {
-    background-color: #8ca12e;
+    background-color: #62760c;
     color: #f1f1f1;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -301,6 +299,8 @@ td {
     color: #D4B20B;
     background-color: transparent;
     text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #facilities-ul a:visited {
@@ -381,14 +381,14 @@ input[type="password"]:focus {
     nav h1 {
         font-size: 40px;
     }
-   
-        #image-bandstand {
-            display: none;
-        }
-    
-        #image-play {
-            display: none;
-        }
+
+    #image-bandstand {
+        display: none;
+    }
+
+    #image-play {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -433,23 +433,25 @@ input[type="password"]:focus {
         top: 200px;
     }
 
-    footer span, a {
+    footer span,
+    a {
         padding-right: 3rem;
     }
 
-        #photo {
-            clear: both;
-            line-height: 0;
-            column-count: 3;
-            column-gap: 0px;
-            background-color: #2a4848;
-        }
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0px;
+        background-color: #2a4848;
+    }
 }
 
 @media only screen and (max-width: 550px) {
     nav h1 {
-            font-size: 22px;
-        }
+        font-size: 22px;
+    }
+
     .event {
         flex-direction: column;
     }
@@ -474,14 +476,14 @@ input[type="password"]:focus {
         height: 100%;
     }
 
-        #photo {
-            clear: both;
-            line-height: 0;
-            column-count: 1;
-            column-gap: 0px;
-            background-color: #2a4848;
-        }
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0px;
+        background-color: #2a4848;
+    }
 
-        
-    
+
+
 }
