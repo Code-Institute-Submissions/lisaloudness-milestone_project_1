@@ -400,7 +400,7 @@ input[type="email"]:focus {
         margin-right: 10%;
     }
 
-   
+
 
     .scroll1 {
         padding-left: 10%;
@@ -454,12 +454,13 @@ input[type="email"]:focus {
 
 @media only screen and (max-width: 550px) {
     #welcome {
-            display: none;
-        }
-    
-    
+        display: none;
+    }
+
+
     nav h1 {
         font-size: 22px;
+        text-align: center;
     }
 
     .event {
