@@ -11,6 +11,7 @@
 body {
     font-family: 'Nunito' sans-serif;
     font-size: 16px;
+    
 }
 
 
@@ -75,7 +76,7 @@ nav a.active {
     min-height: 900px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: cover;
     margin: 0;
 }
@@ -201,13 +202,14 @@ a:visited {
 }
 
 #map-image {
+    display: flex;
     float: right;
     padding-bottom: 10px;
-    display: block;
+   
 }
 
 #map-text {
-
+    padding-top: 3rem;
     text-align: center;
 
 }
@@ -230,6 +232,12 @@ footer {
     padding-bottom: 25px;
     padding-top: 40px;
 }
+
+.icon-space {
+    padding-right: 3rem;
+}
+
+
 
 footer a:link {
     color: #ffff;
@@ -400,6 +408,11 @@ input[type="email"]:focus {
         margin-right: 10%;
     }
 
+    .social {
+      
+            padding-right: 5rem;
+            
+    }
 
 
     .scroll1 {
@@ -439,9 +452,7 @@ input[type="email"]:focus {
         top: 200px;
     }
 
-    footer span, a {
-        padding-right: 3rem;
-    }
+   
 
     #photo {
         clear: both;

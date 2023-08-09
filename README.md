@@ -9,7 +9,7 @@ Welcome to Victoria Park Community website. This website has been developed to p
 Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
 
 ## **UX**
-
+### User Demographic
 Current users will be residents who live in the vicinity of the park.
 
 Current users will be business owners operating in the park.
@@ -19,6 +19,22 @@ New users will be visitors to the park.
 New users will be potential business users to the park.
 
 Future users will be people researching the area for living and business use.
+
+### User-Stories
+#### Current User Goals
+1. As a current user, I want to see what events are on in the park.
+2. As a current user, I want to easily view partner websites.
+3. As a current user, I want to easily navigate to content I've previously viewed
+
+#### New User Goals
+1. As a new user, I want to easily navigate the entire site intuitively.
+2. As a new user, I want the information I seek to be easily accessible and relevant.
+3. As a new user, I want attractive and relavant visuals which work with the content.
+
+#### Future User Goals
+1. As a future user, I want to see attractive and relavant visuals.
+2. As a future user, I want to be informed and educated.
+3. As a future user, I want connect with the community.
 
 ## **Website Design**
 
