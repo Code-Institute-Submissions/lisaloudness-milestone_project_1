@@ -218,7 +218,7 @@ a:visited {
 
 #map-text {
     padding-top: 3rem;
-    float: center;
+    
 
 }
 
@@ -373,6 +373,10 @@ textarea {
     border: none;
     background: #effaf1;
 }
+#comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 input[type="text"]:focus,
 input[type="email"]:focus {
@@ -430,7 +434,7 @@ input[type="email"]:focus {
     }
 
     .social {
-      
+       
             padding-right: 5rem;
             
     }
