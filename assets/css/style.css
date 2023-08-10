@@ -23,6 +23,7 @@ nav {
     background-attachment: fixed;
     width: auto;
     display: block;
+    z-index: 10;
 }
 
 nav img {
