@@ -6,7 +6,13 @@ Welcome to Victoria Park Community website. This website has been developed to p
 
 ## **Introduction**
 
-Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
+Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar. 
+
+## **Development** ##
+Victoria Park is a popular park with high footfall. To represent user stories for multiple end users informal discussions held with:
+* dog walker at the park
+* ice cream van owner
+* 12 year old boy
 
 ## **UX**
 ### User Demographic
@@ -100,16 +106,21 @@ Live weblinks to social media accounts partnered with social branding icon.
 All testing performed for Milestone Project 1 can be found here:
 [View Test Document here] (/TESTING.md)
 
-## Technologies used.
+## **Technologies Used.**
 
-### Main Languages Used
+### **Main Languages Used**
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 
 - [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
-### **Frameworks, Libraries & Programs Used**
+### **Additional Languages Used**
+- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki)
+  - Used to implement the close/collapse feature in the hamburger menu
 
+### **Frameworks, Libraries & Programs Used**
+- [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage)
+  -Boostrap was used to assist with responsiveness and style of website
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
   - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
@@ -119,22 +130,20 @@ All testing performed for Milestone Project 1 can be found here:
 - [GitHub](https://github.com/ "Link to GitHub")
   - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
-
   - Balsamiq was used to create the wireframes during the design process.
-
-- [Microsoft Paint 3D](https://en.wikipedia.org/wiki/Microsoft_Paint)
-
-  - was used for resizing images and editing photos for the website.
-
+- [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint "Link to Wikipedia Microsoft Paint)
+  - Microsoft Paint was used for resizing images and editing photos for the website.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
   - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+-[FREE FORMATTER.COM] (https://www.freeformatter.com/ "Link to Free Formatter home page)  
+  - Free Formatter was used to format all html script.
 
 # Wireframes
 
 #### \*Home Page
 
-![alt text](/assets/images/home_page.webp)
+![Wireframe Home Page mockup](/assets/images/home_page.webp)
 
 #### \*Facilities page.
 
-![alt text](/assets/images/facilities_page.webp)
+![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
