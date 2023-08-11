@@ -1,8 +1,8 @@
 # Victoria Park - Testing
 
-[Main README.md file] (/README.md)
+[Main README.md file](/README.md)
 
-[View live project] (https://lisaloudness.github.io/milestone_project_1/)
+[View live project](https://lisaloudness.github.io/milestone_project_1/)
 
 [View Github repository](https://github.com/lisaloudness/milestone_project_1)
 
@@ -14,6 +14,41 @@
     - [Code Validation](#Code-Validation)
     - [Browser Validation](#Browser-Validation)
 4. [User Testing](User-Testing)
+
+## **Testing User Stories**
+
+1. As a current user, I want to see what events are on in the park, so I can know what's going on.
+   - The Events calendar is easily scrollable on the homepage, providing comprehensive information about specific events.
+   -
+2. As a current user, I want to easily view partner websites, so I can access their information easily.
+   - A dedicated section on the Facilities page is dedicated to partner businesses. From here users can easily navigate to third party websites.
+   - Social Media links are easily accessible in the footer on each page.
+   -
+3. As a current user, I want to easily navigate to content I've previously viewed, so I don't have to use multiple mouse clicks.
+   - The nav bar is prominentely displayed in the header on all pages and all pages can be easily navigated from here.
+   - The responsive element of the navbar collapses to a hamburger menu which has a dropdown menu on small and medium screens.
+
+4. As a new user, I want to easily navigate the entire site intuitively so I can easily find the information required.
+   - The website pages are clearly labelled and descriptive of the content.
+   - Social Media links are easily accessible in the footer on each page.
+
+5. As a new user, I want the information I seek to be easily accessible and relevant so I know that information is current when I visit the park.
+   - The Events calendar is time stamped displaying upcoming 4 events. The Events calendar will be updated regularly by website administrator.
+   - Opening times and closing times will be reviewed on an annual basis
+
+6. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
+   - Images of Victoria Park have been used throughout the website, drawing the user in to the beauty of the park.
+   - Parallax effect has been used to maximise the viewport of the background images depending on the user's device.
+
+7. As a future user, I want to see attractive and relevant visuals.
+   - 
+   -
+   - An embedded Google Maps which invites the user to click into an interactive  map for directions.
+8. As a future user, I want to be informed and educated so I know what to expect when visiting the park.
+   -
+   -
+3. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
+   -
 
 
 ***
