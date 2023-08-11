@@ -4,7 +4,7 @@
 
 [View live project] (https://lisaloudness.github.io/milestone_project_1/)
 
-[View Github repository]()
+[View Github repository](https://github.com/lisaloudness/milestone_project_1)
 
 ***
 ## Table of Contents

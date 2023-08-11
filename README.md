@@ -95,6 +95,11 @@ Footer to include:
 Copyright
 Live weblinks to social media accounts partnered with social branding icon.
 
+## Testing
+
+All testing performed for Milestone Project 1 can be found here:
+[View Test Document here] (/TESTING.md)
+
 ## Technologies used.
 
 ### Main Languages Used
