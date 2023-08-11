@@ -8,7 +8,7 @@
     padding: 0;
 }
 body {
-    font-family:'Merriweather', serif;
+    font-family:'Merriweather', sans-serif;
     font-size: 16px; 
 }
 
@@ -75,26 +75,22 @@ nav a.active {
 
 /*--------EVENT COLOUMN --------*/
 .event-container {
-    font-family: Roboto, sans-serif;
     max-width: 100%;
     background-size: auto;
     background: #2a4848;
     left: 20px;
 }
-
 .year {
     font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
     color: white;
 }
-
 .event {
     box-shadow: 0 4px 16px -8px #9cd9a8ff;
     display: flex;
     border-radius: 8px;
 }
-
 .event-left {
     background: #aec547;
     min-width: 82px;
@@ -107,16 +103,13 @@ nav a.active {
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
-
 .date {
     font-size: 45px;
 }
-
 .month {
     font-size: 16px;
     font-weight: normal;
 }
-
 .event-right {
     display: flex;
     flex-direction: column;
@@ -124,14 +117,12 @@ nav a.active {
     padding: 0 24px;
     color: white;
 }
-
 .event-title {
     font-size: 20px;
     margin: 24px 0 10px 0;
     color: white;
     text-transform: uppercase;
 }
-
 .event-timing {
     background: #2a4848;
     display: flex;
@@ -144,7 +135,6 @@ nav a.active {
     font-size: 14px;
     color: white;
 }
-
 .event-timing img {
     height: 20px;
     padding-right: 8px;
@@ -160,9 +150,9 @@ nav a.active {
     padding-top: 30px;
     padding-bottom: 10px;
     margin: auto;
-        width: 100%;
-        border: 1px solid white;
-        padding: 10px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
 }
 
 a:link {
@@ -170,18 +160,15 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
 }
-
 a:visited {
     color: #f1f1f1 !important;
     background-color: transparent;
     text-decoration: underline;
 }
-
 #image-bandstand {
     width: 100%;
     height: 400px;
 }
-
 /*------- -HOME THINGS TO DO--------*/
 .scroll2 {
     background-color: #62760c;
@@ -192,29 +179,22 @@ a:visited {
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto;
-        width: 100%;
-        border: 1px solid white;
-        padding: 10px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
 }
-
 #open-time {
     font-size: 22px;
     font-style: italic;
-    
 }
-
+/*--------THINGS TO DO AND MAP--------*/
 #map-image {
-   
     padding-bottom: 10px;
-    width: 100%;
-   
+    width: 100%; 
 }
-
 #map-text {
     padding-top: 3rem;
     text-align: center;
-    
-
 }
 
 #address {
@@ -222,7 +202,7 @@ a:visited {
     list-style-type: none;
 }
 
-/*--------HOME OPENING TIMES AND MAP--------*/
+
 
 
 /*------  --FOOTER ON ALL PAGES --------*/
@@ -237,7 +217,7 @@ footer {
 }
 
 .icon-space {
-    padding-right: 3rem;
+    padding-right: 10px;
     padding-bottom: 3rem;
 }
 
@@ -309,19 +289,16 @@ td {
     background-color: #62760c;
     color: #f1f1f1;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     padding-top: 20px;
     margin: auto;
-        width: 100%;
-        border: 1px solid white;
-        padding: 10px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
 }
-
 #facilities-ul {
     list-style-type: none;
     line-height: 20px;
 }
-
 #facilities-ul a:link {
  
     font-size: 16px;
@@ -459,7 +436,7 @@ input[type="email"]:focus {
     #welcome {
         display: none;
     }
-    .parallax-effect1 {
+    .parallax-effect1 .parallax-effect2 {
         min-height: 300px;
     }
     .mobile-hide {
