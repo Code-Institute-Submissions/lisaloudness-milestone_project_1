@@ -52,8 +52,31 @@
    - An embedded Google Maps which invites the user to click into an interactive map for directions.
 8. ## As a future user, I want to be informed and educated so I know what to expect when visiting the park.
    -
-9. ## As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
+9. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
+   - [Back to top](#Victoria-park---testing)
 
----
+## **Manual Testing**
 
-## Testing User Stories
+1. Developer Tools were used throughout the developement process to test website responsiveness on all devices.
+
+2. All links within the site were tested to ensure that
+
+   - all navigation links are working.
+   - social media links and third party partner links are working and open in a new page.
+   - Hover states work correctly.
+
+3. The form element on the Newsletter tab was tested to ensure that:
+   - The ''Required'' fields are working.
+   - The submit button opens the code institute form dump page in a new tab.
+   - The radio button is set to default.
+
+## **W3 Validation**
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the html and css code.  
+[W3C Markup Validator](https://validator.w3.org) - There were no error detected.
+![HTML Validation, no error detected](assets/testing/w3_index.png "HTML Validation, no error detected")
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.
+![CSS Validator, no error detected](assets/testing/w3_css.png "CSS Validation, no error detected")
+
+## **Light House Testing**
