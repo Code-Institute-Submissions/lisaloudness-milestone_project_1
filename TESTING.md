@@ -45,19 +45,24 @@
    - Opening times and closing times will be reviewed on an annual basis
 
 6. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
-
    - Images of Victoria Park have been used throughout the website, drawing the user in to the beauty of the park.
    - Parallax effect has been used to maximise the viewport of the background images depending on the user's device.
 
 7. As a future user, I want to see attractive and relevant visuals.
-   -
+   - The website includes many current photos of the park. Parralax effects used on background images keep the users eye on colorful visuals.
    - An embedded Google Maps which invites the user to click into an interactive map for directions.
+   - The Gallery page provides colourful and stimulating visuals of many aspects of Victoria Park.
 
 8. As a future user, I want to be informed and educated so I know what to expect when visiting the park.
-   -
+   - The website is full of colorful and appealling images of the park giving a sound overview to the user of what the park looks like.
+   - The Faciliies page showcases the main attraction of the park which is the Splash Pad. Also  
 
 9. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
-   - [Back to top](#Victoria-park---testing)
+   - Social Media platforms are accessible from the footer on all pages.  These provide realtime interaction for the user.
+   - The Newsletter page invites the user to subscribe to a Newsletter which will mostly be an email highlighting the upcoming events on the home page.
+   - The form gives the user opportunity to leave comments or ask questions to Friends of Victoria Park.
+
+[Back to top](#Victoria-park---testing)
 
 </br>   
 
@@ -76,6 +81,7 @@
    - The submit button opens the code institute form dump page in a new tab.
    - The radio button is set to default.
 
+[Back to top](#Victoria-park---testing)
 </br>
 
 ## **Automated Testing**
@@ -124,12 +130,16 @@ The Chrome Light House testing was used to to audit the performance, accessibili
    - Mobile [Full report can be found here](assets/testing/gallery_mobile.com-2023)
    - ![Mobile Gallery Page Results](assets/testing/gallery_mobile_lh.png "Light House mobile results")
 
+
+[Back to top](#Victoria-park---testing)
 </br>
+
 
 ## **User Testing**
 
-The website was shared with family and colleagues for their valued feedback
-
+The website was shared with family and colleagues for their valued feedback. Common issues noted in the feedback were fixed
+- The social media icons for Instagram + Twitter were in the wrong place.
+- Twitter is now re=branded as X.
 
 
 
