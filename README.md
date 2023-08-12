@@ -2,8 +2,6 @@
 
 ![Victoria Park website in various devices](assets/testing/milestone1_mockup.png "victoria park website in various devices")
 
-Welcome to Victoria Park website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.
-
 [View the live project here](https://lisaloudness.github.io/milestone_project_1/)
 
 ## **Table Of Content**
@@ -26,7 +24,7 @@ Welcome to Victoria Park website. This website has been developed to provide a c
 
 ## **Introduction**
 
-Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
+Welcome to Victoria Park website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff. Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
 
 ## **Development**
 
