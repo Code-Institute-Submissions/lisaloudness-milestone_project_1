@@ -80,3 +80,36 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ![CSS Validator, no error detected](assets/testing/w3_css.png "CSS Validation, no error detected")
 
 ## **Light House Testing**
+
+The Chrome Light House testing was used to to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including converting all images to webp format, setting a width and height to some images, adding a ```rel=noopener``` to social media links, here are the results:
+
+1. Index page
+   -[Desktop Home Page Results](assets/testing/home_desktop_lh.png "Light House Desktop Results")
+      -[Full report can be found here](assets/testing/home_desktop.com-2023)
+   -[Mobile Home Page Results](assets/testing/home_mobile_lh.png "Light House mobile results")
+      -[Full report can be found here](assets/testing/home_mobile.com-2023)
+2. Facilities page
+    -[Desktop Facilities Page Results](assets/testing/facilities_desktop_lh.png "Light House Desktop Results")
+      -[Full report can be found here](assets/testing/facilities_desktop.com-2023)
+    -[Mobile Facilities Page Results](assets/testing/facilities_mobile_lh.png "Light House mobile results")
+      -[Full report can be found here](assets/testing/facilities_mobile.com-2023)
+
+3. Newsletter page
+    -[Desktop Newsletter Page Results](assets/testing/contact_desktop_lh.png "Light House Desktop Results")
+      -[Full report can be found here](assets/testing/contact_desktop.com-2023)
+   -[Mobile Newsletter Page Results](assets/testing/contact_mobile_lh.png "Light House mobile results")
+      -[Full report can be found here](assets/testing/contact_mobile.com-2023)
+
+4. Gallery page
+    -[Desktop Gallery Page Results](assets/testing/gallery_desktop_lh.png "Light House Desktop Results")
+      -[Full report can be found here](assets/testing/gallery_desktop.com-2023)
+   -[Mobile Gallery Page Results](assets/testing/gallery_mobile_lh.png "Light House mobile results")
+      -[Full report can be found here](assets/testing/gallery_mobile.com-2023)
+
+
+
+
+
+
+
+
