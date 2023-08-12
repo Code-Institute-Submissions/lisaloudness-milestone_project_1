@@ -1,3 +1,5 @@
+(assets/testing/milestone1_mockup.png)
+
 # **Victoria Park Community**
 
 Welcome to Victoria Park Community website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.

@@ -7,7 +7,7 @@
 }
 body {
     font-family:'Merriweather', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;  
 }
 
 /* NAV BAR */
@@ -442,7 +442,7 @@ input[type="email"]:focus {
         column-gap: 0px;
         background-color: #2a4848;
     }
-   .splash {
+   .splash .scroll2 {
         display: flex;
         justify-content: center;
         flex-direction: column;
