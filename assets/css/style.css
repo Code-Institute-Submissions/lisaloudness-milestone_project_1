@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-    font-family:'Merriweather', sans-serif;
+    font-family:'Nunito', sans-serif;
     font-size: 16px;  
 }
 
@@ -77,6 +77,7 @@ nav a.active {
     background-size: auto;
     background: #2a4848;
     left: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .year {
     font-size: 30px;

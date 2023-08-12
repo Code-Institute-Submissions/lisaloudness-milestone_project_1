@@ -30,9 +30,9 @@
    -
 3. As a current user, I want to easily navigate to content I've previously viewed, so I don't have to use multiple mouse clicks.
 
-   - The nav bar is prominentely displayed in the header on all pages and all pages can be easily navigated from here.
-   - The responsive element of the navbar collapses to a hamburger menu which has a dropdown menu on small and medium screens.
-   - The logo which is in a prominent position at the top of all pages, navigates to the home page.
+   - The navigation bar is clearly defined and prominantely displayed in the header on all pages and easy for users to find and navigate.
+   - The responsive element of the navbar collapses to a hamburger menu which has a dropdown menu on small and medium screens. This is also clearly defined and easy for users to find and use.
+   - The logo which is in a prominent position at the top of all pages, always navigates to the home page.
 
 4. As a new user, I want to easily navigate the entire site intuitively so I can easily find the information required.
 
@@ -47,10 +47,11 @@
 6. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
    - Images of Victoria Park have been used throughout the website, drawing the user in to the beauty of the park.
    - Parallax effect has been used to maximise the viewport of the background images depending on the user's device.
+   - An attractive color pallette was created using the logo and background images as color generators.
 
 7. As a future user, I want to see attractive and relevant visuals.
    - The website includes many current photos of the park. Parralax effects used on background images keep the users eye on colorful visuals.
-   - An embedded Google Maps which invites the user to click into an interactive map for directions.
+   - An embedded Google Maps API on the homepage invites the user to click into an interactive map for directions.
    - The Gallery page provides colourful and stimulating visuals of many aspects of Victoria Park.
 
 8. As a future user, I want to be informed and educated so I know what to expect when visiting the park.
@@ -70,10 +71,10 @@
 
 1. Developer Tools were used throughout the developement process to test website responsiveness on all devices.
 
-2. All links within the site were tested to ensure that
+2. All links within the site were tested to ensure that:
 
-   - all navigation links are working.
-   - social media links and third party partner links are working and open in a new page.
+   - All navigation links are working.
+   - Social media links and third party partner links are working and open in a new page.
    - Hover states work correctly.
 
 3. The form element on the Newsletter tab was tested to ensure that:
