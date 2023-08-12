@@ -175,7 +175,6 @@ a:visited {
     color: #f1f1f1;
     font-size: 18px;
     text-align: justify;
-    font-family: "Roboto", sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto;
@@ -218,7 +217,7 @@ footer {
 
 .icon-space {
     padding-right: 10px;
-    padding-bottom: 3rem;
+ 
 }
 
 
@@ -239,11 +238,9 @@ footer a:visited {
 
 
 #back-top {
-    text-align: end !important;
-    font-size: 15px;
-    float: right;
-    
-
+   display: flex;
+   justify-content: end;
+   margin-right: 0 !important;
 }
 
 /*--------FACILITIES BACKGROUND--------*/
@@ -392,9 +389,7 @@ input[type="email"]:focus {
 }
 
 @media only screen and (min-width: 600px) {
-    .social {   
-    padding-right: 5rem;    
-    }
+    
     .scroll1 {
         padding-left: 10%;
         padding-right: 10%;
@@ -430,6 +425,10 @@ input[type="email"]:focus {
         column-gap: 0px;
         background-color: #2a4848;
     }
+    .cookie_policy {
+        display: flex;
+        justify-content: end;
+    }
 }
 
 @media only screen and (max-width: 599px) {
@@ -463,7 +462,7 @@ input[type="email"]:focus {
     footer {
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+       
         flex-direction: column;
     }
     #photo {

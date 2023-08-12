@@ -6,13 +6,15 @@
 
 [View Github repository](https://github.com/lisaloudness/milestone_project_1)
 
-***
+---
+
 ## Table of Contents
+
 1. [Testing User Stories](#Testing-User_Stories)
 2. [Manual Testing](#Manual-Testing)
 3. [Automated Testing](#Automated-Testing)
-    - [Code Validation](#Code-Validation)
-    - [Browser Validation](#Browser-Validation)
+   - [Code Validation](#Code-Validation)
+   - [Browser Validation](#Browser-Validation)
 4. [User Testing](User-Testing)
 
 ## **Testing User Stories**
@@ -25,32 +27,33 @@
    - Social Media links are easily accessible in the footer on each page.
    -
 3. As a current user, I want to easily navigate to content I've previously viewed, so I don't have to use multiple mouse clicks.
+
    - The nav bar is prominentely displayed in the header on all pages and all pages can be easily navigated from here.
    - The responsive element of the navbar collapses to a hamburger menu which has a dropdown menu on small and medium screens.
+   - The logo which is in a prominent position at the top of all pages, navigates to the home page.
 
 4. As a new user, I want to easily navigate the entire site intuitively so I can easily find the information required.
+
    - The website pages are clearly labelled and descriptive of the content.
    - Social Media links are easily accessible in the footer on each page.
 
 5. As a new user, I want the information I seek to be easily accessible and relevant so I know that information is current when I visit the park.
+
    - The Events calendar is time stamped displaying upcoming 4 events. The Events calendar will be updated regularly by website administrator.
    - Opening times and closing times will be reviewed on an annual basis
 
 6. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
+
    - Images of Victoria Park have been used throughout the website, drawing the user in to the beauty of the park.
    - Parallax effect has been used to maximise the viewport of the background images depending on the user's device.
 
-7. As a future user, I want to see attractive and relevant visuals.
-   - 
+7. ## As a future user, I want to see attractive and relevant visuals.
    -
-   - An embedded Google Maps which invites the user to click into an interactive  map for directions.
-8. As a future user, I want to be informed and educated so I know what to expect when visiting the park.
+   - An embedded Google Maps which invites the user to click into an interactive map for directions.
+8. ## As a future user, I want to be informed and educated so I know what to expect when visiting the park.
    -
-   -
-3. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
-   -
+9. ## As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
 
-
-***
+---
 
 ## Testing User Stories

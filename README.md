@@ -6,16 +6,20 @@ Welcome to Victoria Park Community website. This website has been developed to p
 
 ## **Introduction**
 
-Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar. 
+Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
 
-## **Development** ##
+## **Development**
+
 Victoria Park is a popular park with high footfall. To represent user stories for multiple end users informal discussions were held with:
-* dog walker at the park
-* ice cream van owner
-* 12 year old boy
+
+- dog walker at the park
+- ice cream van owner
+- 12 year old boy
 
 ## **UX**
+
 ### User Demographic
+
 Current users will be residents who live in the vicinity of the park.
 
 Current users will be business owners operating in the park.
@@ -27,17 +31,21 @@ New users will be potential business users to the park.
 Future users will be people researching the area for living and business use.
 
 ### User-Stories
+
 #### Current User Goals
+
 1. As a current user, I want to see what events are on in the park, so I can know what's going on.
 2. As a current user, I want to easily view partner websites, so I can access their information easily.
 3. As a current user, I want to easily navigate to content I've previously viewed, so I don't have to use multiple mouse clicks.
 
 #### New User Goals
+
 1. As a new user, I want to easily navigate the entire site intuitively so I can easily find the information required.
 2. As a new user, I want the information I seek to be easily accessible and relevant so I know that the information is current.
 3. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
 
 #### Future User Goals
+
 1. As a future user, I want to see attractive and relavant visuals
 2. As a future user, I want to be informed and educated so I get the information I'm browing for.
 3. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
@@ -115,10 +123,12 @@ All testing performed for Milestone Project 1 can be found here:
 - [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
 ### **Additional Languages Used**
+
 - [JavaScript] (https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki)
   - Used to implement the close/collapse feature in the hamburger menu
 
 ### **Frameworks, Libraries & Programs Used**
+
 - [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage)
   -Boostrap was used to assist with responsiveness and style of website
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
@@ -134,8 +144,7 @@ All testing performed for Milestone Project 1 can be found here:
 - [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint "Link to Wikipedia Microsoft Paint)
   - Microsoft Paint was used for resizing images and editing photos for the website.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
-  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
--[FREE FORMATTER.COM] (https://www.freeformatter.com/ "Link to Free Formatter home page)  
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used. -[FREE FORMATTER.COM] (https://www.freeformatter.com/ "Link to Free Formatter home page)
   - Free Formatter was used to format all html script.
 
 # Wireframes
