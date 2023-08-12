@@ -72,7 +72,11 @@
    - The submit button opens the code institute form dump page in a new tab.
    - The radio button is set to default.
 
-## **W3 Validation**
+
+
+## **Automated Testing**
+
+## **Code Validation**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the html and css code.  
 [W3C Markup Validator](https://validator.w3.org) - There were no error detected.
@@ -81,15 +85,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.
 ![CSS Validator, no error detected](assets/testing/w3_css.png "CSS Validation, no error detected")
 
-## **Light House Testing**
+## **Browser Validation**
 
 The Chrome Light House testing was used to to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including converting all images to webp format, setting a width and height to some images, adding a ```rel=noopener``` to social media links, here are the results:
 
-### **Index page**
+1. Index page
+   - Desktop [Full report can be found here](assets/testing/home_desktop.com-2023)
 
-![Desktop Home Page Results](assets/testing/home_desktop_lh.png "Light House Desktop Results")
-[Full report can be found here](assets/testing/home_desktop.com-2023)
-
+   - ![Desktop Home Page Results](assets/testing/home_desktop_lh.png "Light House Desktop Results")
+   - 
 ![Mobile Home Page Results](assets/testing/home_mobile_lh.png "Light House mobile results")
 [Full report can be found here](assets/testing/home_mobile.com-2023)
 
