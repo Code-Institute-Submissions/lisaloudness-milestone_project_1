@@ -47,11 +47,13 @@
    - Images of Victoria Park have been used throughout the website, drawing the user in to the beauty of the park.
    - Parallax effect has been used to maximise the viewport of the background images depending on the user's device.
 
-7. ## As a future user, I want to see attractive and relevant visuals.
+7. As a future user, I want to see attractive and relevant visuals.
    -
    - An embedded Google Maps which invites the user to click into an interactive map for directions.
-8. ## As a future user, I want to be informed and educated so I know what to expect when visiting the park.
+
+8. As a future user, I want to be informed and educated so I know what to expect when visiting the park.
    -
+
 9. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
    - [Back to top](#Victoria-park---testing)
 
@@ -83,29 +85,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 The Chrome Light House testing was used to to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including converting all images to webp format, setting a width and height to some images, adding a ```rel=noopener``` to social media links, here are the results:
 
-1. Index page
+### **Index page**
+
 ![Desktop Home Page Results](assets/testing/home_desktop_lh.png "Light House Desktop Results")
 [Full report can be found here](assets/testing/home_desktop.com-2023)
+
 ![Mobile Home Page Results](assets/testing/home_mobile_lh.png "Light House mobile results")
 [Full report can be found here](assets/testing/home_mobile.com-2023)
 
-2. Facilities page
+### **Facilities page**
+
 ![Desktop Facilities Page Results](assets/testing/facilities_desktop_lh.png "Light House Desktop Results")
 [Full report can be found here](assets/testing/facilities_desktop.com-2023)
+
 ![Mobile Facilities Page Results](assets/testing/facilities_mobile_lh.png "Light House mobile results")
 [Full report can be found here](assets/testing/facilities_mobile.com-2023)
 
-3. Newsletter page
+### **Newsletter page**
+
 ![Desktop Newsletter Page Results](assets/testing/contact_desktop_lh.png "Light House Desktop Results")
 [Full report can be found here](assets/testing/contact_desktop.com-2023)
+
 ![Mobile Newsletter Page Results](assets/testing/contact_mobile_lh.png "Light House mobile results")
 [Full report can be found here](assets/testing/contact_mobile.com-2023)
 
-4. Gallery page
-![Desktop Gallery Page Results](assets/testing/gallery_desktop_lh.png "Light House Desktop Results")
+### **Gallery page**
+
 [Full report can be found here](assets/testing/gallery_desktop.com-2023)
-![Mobile Gallery Page Results](assets/testing/gallery_mobile_lh.png "Light House mobile results")
+![Desktop Gallery Page Results](assets/testing/gallery_desktop_lh.png "Light House Desktop Results")
+
 [Full report can be found here](assets/testing/gallery_mobile.com-2023)
+![Mobile Gallery Page Results](assets/testing/gallery_mobile_lh.png "Light House mobile results")
+
 
 
 
