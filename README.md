@@ -1,8 +1,8 @@
-(assets/testing/milestone1_mockup.png)
-
 # **Victoria Park Community**
 
-Welcome to Victoria Park Community website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.
+![Victoria Park website in various devices](assets/testing/milestone1_mockup.png "victoria park website in various devices")
+
+Welcome to Victoria Park website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff.
 
 [View the live project here](https://lisaloudness.github.io/milestone_project_1/)
 
