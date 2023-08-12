@@ -4,6 +4,24 @@ Welcome to Victoria Park Community website. This website has been developed to p
 
 [View the live project here](https://lisaloudness.github.io/milestone_project_1/)
 
+## **Table Of Content**
+1. [Introduction](#introduction)
+2. [Development](#development)
+3. [UX](#ux)
+   - [User Demographic](#user-demographic)
+   - [User Stories](#user-stories)
+     - [Current User Goals](#current-user-goals)
+     - [New User Goals](#new-user-goals)
+     - [Future User Goals](#future-user-goals)
+4. [Website Design](#website-design)
+5. [Typography](#typography)
+6. [Color Scheme](#color-scheme)
+7. [Features](#features)
+8. [Testing](#testing)  
+9. [Technologies Used](#technologies-used)
+10. [Wireframes](#wireframes)
+
+
 ## **Introduction**
 
 Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
@@ -29,6 +47,7 @@ New users will be visitors to the park.
 New users will be potential business users to the park.
 
 Future users will be people researching the area for living and business use.
+
 
 ### User-Stories
 
@@ -83,13 +102,18 @@ Bloc
 
 Cylch Meithrin Y Parc
 
-### _Contact us_
+### **Newsletter Page**
 
 #### _Key Features_
 
 Contact form to include name, email, reason for enquiry, radio buttons for newsletter.
 
+### **Gallery Page**
+#### _Key Features_
+
 ## Typography
+
+[Google Fonts](https://fonts.google.com/)
 
 ## Color scheme
 
@@ -109,16 +133,16 @@ Footer to include:
 Copyright
 Live weblinks to social media accounts partnered with social branding icon.
 
-## Testing
+## **Testing**
 
 All testing performed for Milestone Project 1 can be found here:
 [View Test Document here](/TESTING.md)
 
-## **Technologies Used.**
+## **Technologies Used**
 
 ### **Main Languages Used**
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 - [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
@@ -129,7 +153,7 @@ All testing performed for Milestone Project 1 can be found here:
 
 ### **Frameworks, Libraries & Programs Used**
 
-- [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage)
+- [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage")
   -Boostrap was used to assist with responsiveness and style of website
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
   - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
@@ -141,18 +165,19 @@ All testing performed for Milestone Project 1 can be found here:
   - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
   - Balsamiq was used to create the wireframes during the design process.
-- [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint "Link to Wikipedia Microsoft Paint)
+- [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint "Link to Wikipedia Microsoft Paint")
   - Microsoft Paint was used for resizing images and editing photos for the website.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
-  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used. -[FREE FORMATTER.COM] (https://www.freeformatter.com/ "Link to Free Formatter home page)
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used. 
+- [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
   - Free Formatter was used to format all html script.
 
-# Wireframes
+## Wireframes
 
-#### \*Home Page
+#### \Home Page
 
 ![Wireframe Home Page mockup](/assets/images/home_page.webp)
 
-#### \*Facilities page.
+#### \Facilities page.
 
 ![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
