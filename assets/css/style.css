@@ -1,13 +1,13 @@
-
 /* Background Styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family:'Nunito', sans-serif;
-    font-size: 16px;  
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
 }
 
 /* NAV BAR */
@@ -20,18 +20,22 @@ nav {
     display: block;
     z-index: 10;
 }
+
 nav img {
     height: 85px;
 }
+
 nav h1 {
     font-family: 'Nunito', sans-serif;
     margin-left: 20px;
     color: #faf9fc;
-    justify-content: center; 
+    justify-content: center;
 }
+
 #navbarNav {
     justify-content: end;
 }
+
 .navbar-nav .nav-link {
     color: #faf9fc;
     text-align: center;
@@ -39,22 +43,27 @@ nav h1 {
     text-decoration: none;
     font-size: 17px;
     text-indent: 10px;
-    align-self: flex-end;  
+    align-self: flex-end;
 }
+
 .navbar-nav .nav-link:hover {
     color: rgb(185, 184, 184);
 }
+
 .navbar-nav .nav-link.active {
     color: rgb(216, 213, 213);
     text-decoration: underline;
 }
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show:hover {
     color: rgb(185, 184, 184);
 }
+
 nav a:hover {
     color: rgb(221, 217, 217);
 }
+
 nav a.active {
     text-decoration: underline;
     color: white !important;
@@ -79,17 +88,20 @@ nav a.active {
     left: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
 .year {
     font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
     color: white;
 }
+
 .event {
     box-shadow: 0 4px 16px -8px #9cd9a8ff;
     display: flex;
     border-radius: 8px;
 }
+
 .event-left {
     background: #aec547;
     min-width: 82px;
@@ -102,13 +114,16 @@ nav a.active {
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
+
 .date {
     font-size: 45px;
 }
+
 .month {
     font-size: 16px;
     font-weight: normal;
 }
+
 .event-right {
     display: flex;
     flex-direction: column;
@@ -116,12 +131,14 @@ nav a.active {
     padding: 0 24px;
     color: white;
 }
+
 .event-title {
     font-size: 20px;
     margin: 24px 0 10px 0;
     color: white;
     text-transform: uppercase;
 }
+
 .event-timing {
     background: #2a4848;
     display: flex;
@@ -134,6 +151,7 @@ nav a.active {
     font-size: 14px;
     color: white;
 }
+
 .event-timing img {
     height: 20px;
     padding-right: 8px;
@@ -159,15 +177,18 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:visited {
     color: #f1f1f1 !important;
     background-color: transparent;
     text-decoration: underline;
 }
+
 #image-bandstand {
     width: 100%;
     height: 400px;
 }
+
 /* HOME THINGS TO DO */
 .scroll2 {
     background-color: #62760c;
@@ -181,19 +202,23 @@ a:visited {
     border: 1px solid white;
     padding: 10px;
 }
+
 #open-time {
     font-size: 22px;
     font-style: italic;
 }
+
 /* THINGS TO DO AND MAP */
 #map-image {
     padding-bottom: 10px;
-    width: 100%; 
+    width: 100%;
 }
+
 #map-text {
     padding-top: 3rem;
     text-align: center;
 }
+
 #address {
     text-align: center;
     list-style-type: none;
@@ -209,24 +234,28 @@ footer {
     padding-top: 10px;
     flex-direction: column;
 }
+
 .icon-space {
     padding-right: 10px;
- 
+
 }
+
 footer a:link {
     color: #ffff;
     background-color: transparent;
     text-decoration: underline;
 }
+
 footer a:visited {
     color: #ffff;
     background-color: transparent;
     text-decoration: underline;
 }
+
 #back-top {
-   display: flex;
-   justify-content: end;
-   margin-right: 0 !important;
+    display: flex;
+    justify-content: end;
+    margin-right: 0 !important;
 }
 
 /* FACILITIES BACKGROUND */
@@ -250,12 +279,14 @@ footer a:visited {
     border: 1px solid white;
     padding: 10px;
 }
+
 .splash h3 {
     margin-bottom: 1rem;
     width: 100%;
     border: 1px solid white;
     padding: 10px;
 }
+
 th,
 td {
     padding: 15px;
@@ -273,14 +304,17 @@ td {
     border: 1px solid white;
     padding: 10px;
 }
+
 #facilities-ul {
     list-style-type: none;
     line-height: 20px;
 }
+
 #facilities-ul a:link {
- 
+
     font-size: 16px;
 }
+
 #facilities-ul a:visited {
     color: #ffffff;
     background-color: transparent;
@@ -318,10 +352,12 @@ textarea {
     border: none;
     background: #effaf1;
 }
+
 #comment {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 input[type="text"]:focus,
 input[type="email"]:focus {
     background-color: #effaf1;
@@ -336,6 +372,7 @@ input[type="email"]:focus {
     cursor: pointer;
     opacity: 0.9;
 }
+
 .btn:hover {
     opacity: 1;
 }
@@ -347,6 +384,7 @@ input[type="email"]:focus {
     column-count: 4;
     column-gap: 0px;
 }
+
 #photo img {
     width: 100%;
 }
@@ -356,6 +394,7 @@ input[type="email"]:focus {
     #image-bandstand {
         display: none;
     }
+
     #image-play {
         display: none;
     }
@@ -366,30 +405,38 @@ input[type="email"]:focus {
         padding-left: 10%;
         padding-right: 10%;
     }
+
     .scroll2 {
         padding-left: 10%;
         padding-right: 10%;
     }
+
     .form .container {
         left: 25px;
         width: 500px;
     }
+
     .event {
         margin: 10px 0;
     }
+
     .map {
         padding-right: 10%;
     }
+
     .event-container {
         position: absolute;
     }
+
     th,
     td {
         text-align: end;
     }
+
     .form .container {
         top: 200px;
     }
+
     #photo {
         clear: both;
         line-height: 0;
@@ -397,6 +444,7 @@ input[type="email"]:focus {
         column-gap: 0px;
         background-color: #2a4848;
     }
+
     .cookie_policy {
         display: flex;
         justify-content: end;
@@ -407,35 +455,44 @@ input[type="email"]:focus {
     #welcome {
         display: none;
     }
+
     .parallax-effect1 .parallax-effect2 {
         min-height: 300px;
     }
+
     .mobile-hide {
         display: none;
     }
+
     nav h1 {
         text-align: center;
     }
+
     .event {
         flex-direction: column;
     }
+
     .event-left {
         padding: 0;
         border-radius: 8px 8px 0 0;
     }
+
     .event .event-left .event-date .date,
     .event .event-left .event-date .month {
         display: inline-block;
         font-size: 24px;
     }
+
     .event .event-left .event-date {
         padding: 10px 0;
     }
+
     footer {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
+
     #photo {
         clear: both;
         line-height: 0;
@@ -443,9 +500,10 @@ input[type="email"]:focus {
         column-gap: 0px;
         background-color: #2a4848;
     }
-   .splash .scroll2 {
+
+    .splash .scroll2 {
         display: flex;
         justify-content: center;
         flex-direction: column;
-   }
+    }
 }

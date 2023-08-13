@@ -139,8 +139,9 @@ The Chrome Light House testing was used to to audit the performance, accessibili
 ## **User Testing**
 
 The website was shared with family and colleagues for their valued feedback. Common issues noted in the feedback were fixed
-- The social media icons for Instagram + Twitter were in the wrong place.
+- The social media icons for Instagram and Twitter were in the wrong place.
 - Twitter is now re=branded as X.
+- The background photos appear zoomed on IOS devices.  This is a known bug of background-attachment-fixed style on IOS
 
 
 
