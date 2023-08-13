@@ -10,21 +10,18 @@
 3. [UX](#ux)
    - [User Demographic](#user-demographic)
    - [User Stories](#user-stories)
-     - [Current User Goals](#current-user-goals)
-     - [New User Goals](#new-user-goals)
-     - [Future User Goals](#future-user-goals)
 4. [Website Design](#website-design)
-5. [Typography](#typography)
-6. [Color Scheme](#color-scheme)
-7. [Features](#features)
-8. [Testing](#testing)  
-9. [Technologies Used](#technologies-used)
-10. [Wireframes](#wireframes)
+   - [Layout](#layout)
+   - [Typography](#typography)
+   - [Color Scheme](#color-scheme)
+5. [Testing](#testing)  
+6. [Technologies Used](#technologies-used)
+7. [Credits & Acknowledgements](#credits-&-acknowledgements)
 
 
 ## **Introduction**
 
-Welcome to Victoria Park website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff. Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and also timestamped events which will require a calendar.
+Welcome to Victoria Park website. This website has been developed to provide a comprehensive guide to amenities and events in a public park located in the west of Cardiff. Main aim of this website is to provide a comprehensive landing site for events and information regarding Victoria Park. Included will be general information about the park such as amenities, opening times, location and timestamped schedule of events.
 
 [Back to top](#victoria-park-community)
 
@@ -35,6 +32,16 @@ Victoria Park is a popular park with high footfall. To represent user stories fo
 - dog walker at the park
 - ice cream van owner
 - 12 year old boy
+
+## Wireframes
+
+#### \Home Page
+
+![Wireframe Home Page mockup](/assets/images/home_page.webp)
+
+#### \Facilities page.
+
+![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
 
 [Back to top](#victoria-park-community)
 
@@ -77,51 +84,56 @@ Future users will be people researching the area for living and business use.
 
 ## **Website Design**
 
+## **Layout**
+
 The website will consist of four pages:
 
-### **Home Page**
+1. ### **Home Page**
 
 #### _Key Features_
 
-Landing page will have a background image below the website Title and Nav bar.
+-  Landing page will have a background image below the website Title and Nav bar.
 
-Opening times.
+- Opening times.
 
-Social media links.
+- Social media links.
 
-Brief summary about the park.
+- Brief summary about the park.
 
-Google map.
+- Google map.
 
-### **Facilities Page**
-
-#### _Key Features_
-
-Splash Pad overview and opening times
-
-Web links to partner businesses operating in the park:
-Mamas Place
-
-Cardiff Beach Centre
-
-Bloc
-
-Cylch Meithrin Y Parc
-
-### **Newsletter Page**
+2. ### **Facilities Page**
 
 #### _Key Features_
 
-Contact form to include name, email, reason for enquiry, radio buttons for newsletter.
+- Splash Pad overview and opening times
 
-### **Gallery Page**
+- Web links to partner businesses operating in the park:
+
+- Mamas Place
+
+- Cardiff Beach Centre
+
+- Bloc
+
+- Cylch Meithrin Y Parc
+
+3. ### **Newsletter Page**
+
 #### _Key Features_
 
-[Back to top](#victoria-park-community)
+- Contact form to include name, email, reason for enquiry, radio buttons for newsletter.
 
-## Typography
+4. ### **Gallery Page**
+#### _Key Features_
+- Gallery of bright colorful pictures of what Victoria Park has to offer.
 
-[Google Fonts](https://fonts.google.com/)
+5. ### **Common Features On Each Page**
+
+- Navigation Bar is a Bootstrap responsive container which collapses to hamburger style drop-down menu. Features at the top of each page.
+- Footer includes live weblinks to social media accounts partnered with social branding icon., copyright and privacy policy. The footer is easily accessible at the bottom of each page.
+- The Logo will navigate to the Home page from every tab.
+- Back to top command 
 
 ## Color scheme
 
@@ -129,17 +141,6 @@ Using the [COOLERS](https://coolors.co/image-picker) colour palette generator, t
 
 ![Colour Palette](assets/images/coolerpalette.png)
 
-## Features
-
-### Nav Bar
-
-Nav Bar is a Bootstrap responsive container which collapses to hamburger style drop-down menu.
-
-### Footer
-
-Footer to include:
-Copyright
-Live weblinks to social media accounts partnered with social branding icon.
 
 [Back to top](#victoria-park-community)
 
@@ -152,18 +153,18 @@ All testing performed for Milestone Project 1 can be found here:
 
 ### **Main Languages Used**
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML5 Wiki")
 
 - [CSS3](https://en.wikipedia.org/wiki/Code_Composer_Studio "Link to CSS Wiki")
 
 ### **Additional Languages Used**
 
-- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScipt Wiki")
   - Used to implement the close/collapse feature in the hamburger menu
 
 ### **Frameworks, Libraries & Programs Used**
 
-- [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage")
+- [Bootstrap 5.3](https://getbootstrap.com/ "Link to Bootsrap homepage")
   -Bootstrap was used to assist with responsiveness and style of website
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
   - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
@@ -184,14 +185,5 @@ All testing performed for Milestone Project 1 can be found here:
 
 [Back to top](#victoria-park-community)  
 
-## Wireframes
-
-#### \Home Page
-
-![Wireframe Home Page mockup](/assets/images/home_page.webp)
-
-#### \Facilities page.
-
-![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
-
-[Back to top](#victoria-park-community)
+## **Credits & Ackowledments**
+- 
