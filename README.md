@@ -65,12 +65,12 @@ Future users will be people researching the area for living and business use.
 
 1. As a new user, I want to easily navigate the entire site intuitively so I can easily find the information required.
 2. As a new user, I want the information I seek to be easily accessible and relevant so I know that the information is current.
-3. As a new user, I want attractive and relavant visuals which work with the content so the content is intuitive.
+3. As a new user, I want attractive and relevant visuals which work with the content so the content is intuitive.
 
 #### Future User Goals
 
-1. As a future user, I want to see attractive and relavant visuals
-2. As a future user, I want to be informed and educated so I get the information I'm browing for.
+1. As a future user, I want to see attractive and relevant visuals
+2. As a future user, I want to be informed and educated so I get the information I'm browsing for.
 3. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
 
 [Back to top](#victoria-park-community)
@@ -164,13 +164,13 @@ All testing performed for Milestone Project 1 can be found here:
 ### **Frameworks, Libraries & Programs Used**
 
 - [Bootstrap 5.3] (https://getbootstrap.com/ "Link to Bootsrap homepage")
-  -Boostrap was used to assist with responsiveness and style of website
+  -Bootstrap was used to assist with responsiveness and style of website
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
   - Google fonts was used to import the fonts "Nunito"and "Roboto"into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
   - Font Awesome was used to import icons (e.g. social media icons) for UX purposes.
 - [Code Anywhere](https://www.codeanywhere.com/ "Link to Code Anywhere homepage")
-  - Code Anywhere was used for writing code, commiting, and then pushing to GitHub.
+  - Code Anywhere was used for writing code, committing, and then pushing to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
   - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
