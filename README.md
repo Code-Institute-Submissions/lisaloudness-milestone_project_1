@@ -16,7 +16,8 @@
    - [Color Scheme](#color-scheme)
 5. [Testing](#testing)  
 6. [Technologies Used](#technologies-used)
-7. [Credits & Acknowledgements](#credits-&-acknowledgements)
+7. [Future Development](future-development)
+8. [Credits & Acknowledgements](#credits-&-acknowledgements)
 
 
 ## **Introduction**
@@ -185,5 +186,7 @@ All testing performed for Milestone Project 1 can be found here:
 
 [Back to top](#victoria-park-community)  
 
-## **Credits & Ackowledments**
+## **Future Development**
+
+## **Credits & Acknowledgements**
 - 

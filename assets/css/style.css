@@ -12,7 +12,7 @@ body {
 
 /* NAV BAR */
 nav {
-    position: fixed;
+    
     background-color: #2a4848ff;
     nav-down: auto;
     background-attachment: fixed;
@@ -184,6 +184,10 @@ a:visited {
     text-decoration: underline;
 }
 
+a:hover {
+    color: rgb(185, 184, 184);
+}
+
 #image-bandstand {
     width: 100%;
     height: 400px;
@@ -324,10 +328,10 @@ td {
 /* NEWSLETTER BACKGROUND */
 .parallax-effect3 {
     background-image: url(../images/waterfountain.webp);
-    min-height: 850px;
+    min-height: 1050px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: cover;
     margin: 0px;
 }
@@ -411,7 +415,7 @@ input[type="email"]:focus {
         padding-right: 10%;
     }
 
-    .form .container {
+     .form .container {
         left: 25px;
         width: 500px;
     }
@@ -487,11 +491,7 @@ input[type="email"]:focus {
         padding: 10px 0;
     }
 
-    footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
+    
 
     #photo {
         clear: both;
