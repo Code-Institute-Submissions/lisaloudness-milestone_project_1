@@ -185,7 +185,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(185, 184, 184);
+    color: rgb(185, 184, 184)!important;
 }
 
 #image-bandstand {
@@ -254,6 +254,10 @@ footer a:visited {
     color: #ffff;
     background-color: transparent;
     text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgb(185, 184, 184)!important;
 }
 
 #back-top {
