@@ -10,7 +10,7 @@
 3. [UX](#ux)
    - [User Demographic](#user-demographic)
    - [User Stories](#user-stories)
-4. [Website Design](#website-design)
+4. [UI](#UI)
    - [Layout](#layout)
    - [Typography](#typography)
    - [Color Scheme](#color-scheme)
@@ -83,7 +83,7 @@ Future users will be people researching the area for living and business use.
 
 [Back to top](#victoria-park-community)
 
-## **Website Design**
+## **UI**
 
 ## **Layout**
 
