@@ -83,6 +83,8 @@
    - The submit button opens the code institute form dump page in a new tab.
    - The radio button is set to default.
 
+4. Website compatibility was tested on Firefox, Chrome, Edge and Safari browsers. No issues to note.   
+
 [Back to top](#Victoria-park---testing)
 </br>
 
@@ -99,7 +101,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ## **Browser Validation**
 
-The Chrome Light House testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including converting all images to webp format, setting a width and height to some images, adding a ```rel=noopener``` to social media links, here are the results:
+The Chrome Light House testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including converting all images to webp format, setting a width and height to some images. Here are the results:
 
 1. Index page
    - Desktop [Full report can be found here](assets/testing/home_desktop.com-2023)

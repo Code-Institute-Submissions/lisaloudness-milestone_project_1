@@ -1,4 +1,4 @@
-# **Victoria Park Community**
+# **Victoria Park**
 
 ![Victoria Park website in various devices](assets/testing/milestone1_mockup.png "victoria park website in various devices")
 
@@ -36,15 +36,15 @@ Victoria Park is a popular park with high footfall. To represent user stories fo
 
 ## Wireframes
 
-#### \Home Page
+#### Home Page
 
 ![Wireframe Home Page mockup](/assets/images/home_page.webp)
 
-#### \Facilities page.
+#### Facilities page.
 
 ![Wireframe Facilities page mockup](/assets/images/facilities_page.webp)
 
-[Back to top](#victoria-park-community)
+[Back to top](#victoria-park)
 
 ## **UX**
 
@@ -81,7 +81,7 @@ Future users will be people researching the area for living and business use.
 2. As a future user, I want to be informed and educated so I get the information I'm browsing for.
 3. As a future user, I want connect with the community so I feel as if I'm reaching out to a person.
 
-[Back to top](#victoria-park-community)
+[Back to top](#victoria-park)
 
 ## **UI**
 
@@ -143,7 +143,7 @@ Using the [COOLERS](https://coolors.co/image-picker) colour palette generator, t
 ![Colour Palette](assets/images/coolerpalette.png)
 
 
-[Back to top](#victoria-park-community)
+[Back to top](#victoria-park)
 
 ## **Testing**
 
@@ -184,9 +184,21 @@ All testing performed for Milestone Project 1 can be found here:
 - [FREE FORMATTER](https://www.freeformatter.com/ "Link to Free Formatter home page")
   - Free Formatter was used to format all html script.
 
-[Back to top](#victoria-park-community)  
+[Back to top](#victoria-park)  
 
 ## **Future Development**
+1. Known bug with {background:fixed} on IOS devices causing the background to appear zoomed.  As this was noted on Slack as a known bug, I did not attempt to troubleshoot.
+2. Embedd real-time Twitter and Facebook newsfeeds to the homepage.  Due to privacy settings on the groups, this could not be accomplished this time.
+
+## **Personal Development**
+
+ The main learning I've taken from this project is the importance of the "building" process in coding.  The importance of having a vision and firm plan is key to the build - I don't feel I was strong in this area but looking forward, I aim to have a better structure in place to aid the build process.  I feel this will help immensely with the concept of 'inheritence' throughout the project.
+ I aim to build on my proficiency of Developer Tools rather than the trial and error method in codeanywhere which, as a newbie to coding, is what I found myself doing in this project.
+ Going forward, I want to develop clean, easy to read code and develop best practices along the way.
+
 
 ## **Credits & Acknowledgements**
-- 
+
+1. Iris Smok - Cohort Facilitator for her continued support.
+2. Seun - Mentor for her valued input and suggestions.
+ 
