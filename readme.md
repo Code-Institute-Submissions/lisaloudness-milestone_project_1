@@ -16,8 +16,9 @@
    - [Color Scheme](#color-scheme)
 5. [Testing](#testing)  
 6. [Technologies Used](#technologies-used)
-7. [Future Development](future-development)
-8. [Credits & Acknowledgements](#credits-&-acknowledgements)
+7. [Deployment](#deployment)
+8. [Future Development](future-development)
+9. [Credits & Acknowledgements](#credits-&-acknowledgements)
 
 
 ## **Introduction**
@@ -185,6 +186,9 @@ All testing performed for Milestone Project 1 can be found here:
   - Free Formatter was used to format all html script.
 
 [Back to top](#victoria-park)  
+
+## **Deployment**
+The main branch of the project was deployed to the internet using Github Pages.
 
 ## **Future Development**
 1. Known bug with {background:fixed} on IOS devices causing the background to appear zoomed.  As this was noted on Slack as a known bug, I did not attempt to troubleshoot.
